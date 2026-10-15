@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Yerel veritabanı (tarama geçmişi, önbellek)
+*.db
+
+# Günlük güncelleme kayıtları ve her gün yerel veriyle yeniden eğitilen model
+logs/
+model/stanley_talep_modeli*
+
+# Büyük ham veri: README'deki adımla indirilir
+veri/

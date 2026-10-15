@@ -1,0 +1,12 @@
+fastapi==0.142.0
+uvicorn==0.54.0
+streamlit==1.65.0
+requests==2.34.2
+selenium==4.50.0
+pandas==3.0.6
+numpy==2.5.3
+scikit-learn==1.9.1
+joblib==1.6.0
+plotly==7.1.0
+openpyxl==3.1.5
+pytest==9.1.1

@@ -1,0 +1,23 @@
+{
+  "veri": "UCI Online Retail II",
+  "urun_sayisi": 2950,
+  "egitim_satir": 105322,
+  "test_satir": 33315,
+  "test_baslangic": "2011-07-01",
+  "mae_log_model": 0.7264,
+  "mae_log_baz": 0.8223,
+  "mae_log_model_fiyat_degisen": 0.7613,
+  "mae_log_baz_fiyat_degisen": 0.9229,
+  "ortalama_esneklik": -1.408,
+  "referans_log_baz_talep": 2.6390573296152584,
+  "oran_araligi": [
+    0.5,
+    2.0
+  ],
+  "ozellikler": [
+    "log_fiyat_orani",
+    "log_baz_talep",
+    "log_son4_hafta",
+    "ay"
+  ]
+}
