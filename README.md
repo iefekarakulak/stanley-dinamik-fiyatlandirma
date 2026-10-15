@@ -1,12 +1,31 @@
-# Dinamik Fiyatlandırma Motoru (Amazon TR – Stanley Termos)
+# Stanley Pazar Analizi ve Kâr Optimizasyonu (Amazon TR)
 
-Aynı ürünü birden fazla satıcının sattığı bir pazaryerinde, bir satıcının **kârını en yükseğe çıkaran fiyatı** bulan uçtan uca bir sistem.
+[![Testler](https://github.com/iefekarakulak/stanley-dinamik-fiyatlandirma/actions/workflows/testler.yml/badge.svg)](https://github.com/iefekarakulak/stanley-dinamik-fiyatlandirma/actions/workflows/testler.yml)
+
+Amazon TR'de Stanley ürünleri satmayı düşünen bir satıcı için **"Bu ürünü bu maliyetle satarsam hangi fiyattan en çok kârı ederim, rekabet edebilir miyim?"** sorusunu cevaplayan uçtan uca bir sistem: günlük veri toplama, kategorilendirme, talep modeli ve kâr optimizasyonu.
+
+![Analiz ekranı](docs/ekran_ozet.png)
 
 - **Günlük veri toplama:** Amazon TR'deki tüm Stanley ilanları her sabah otomatik toplanır; veri seti her gün büyür
 - **Kategorilendirme:** İlan başlıklarından ürün tipi, seri, alt seri ve hacim; aksesuarlar ve aynı adlı alet markası (Stanley Tools) ayrılır
 - **Kâr sınırlı strateji:** Maliyet, komisyon, kargo ve minimum marja göre taban fiyat; sistem zarar ettiren fiyatı asla önermez
 - **Talep modeli:** Fiyat değişince satışın nasıl değiştiğini tahmin eden gradient boosting modeli; yeterli veri birikince Stanley'nin kendi pazar verisiyle her gün yeniden eğitilir
 - **Kâr eğrisi:** Her aday fiyat için *tahmini satış × birim kâr*; en kârlı fiyat
+
+![Kâr eğrisi](docs/ekran_kar_egrisi.png)
+
+*Kâr eğrisi: taban fiyatın altında öneri yapılmaz; rakibin üstüne çıkıldıkça Buybox kaybedildiği için tahmini kâr hızla düşer.*
+
+## Amazon'un kendi fiyatlandırma aracından farkı
+
+Amazon, satıcılara Seller Central'da kural tabanlı otomatik fiyatlandırma (Automate Pricing) sunar: "Buybox fiyatını eşitle ya da X TL altına in, şu minimumun altına düşme". Bu proje bir yeniden fiyatlandırma (repricer) aracı değil, farklı bir soruyu cevaplar:
+
+| | Amazon Automate Pricing | Bu proje |
+|---|---|---|
+| Ne zaman kullanılır | Satıcı olduktan sonra, kendi ilanları için | **Satmaya karar vermeden önce**, satıcı hesabı gerekmeden |
+| Hedef | Rakibe göre konumlanmak | **Toplam kârı** en yükseğe çıkarmak (talep × birim kâr) |
+| Rakibin altına inmek | Kural öyle diyorsa her zaman | Kâr düşüyorsa inmez; zarar sınırının altına asla inmez |
+| Pazar görünümü | Kendi ürünü | Tüm Stanley kataloğu: kategori, seri, satış rozeti, indirim, stok |
 
 ## Mimari
 

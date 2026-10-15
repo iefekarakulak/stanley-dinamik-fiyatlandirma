@@ -15,11 +15,29 @@ def urun_secenekleri(demo):
     istek.raise_for_status()
     return istek.json()
 
+# Paylaşılabilir link: ?kaynak=demo&kategori=Pipetli Bardak&seri=Quencher&alt_seri=ProTour&hacim=1.18&analiz=1
+# seçimleri önceden doldurur, analiz=1 ise analizi butona basmadan gösterir.
+LINK = st.query_params
+
+def _link_sirasi(secenekler, anahtar, karsilastir=lambda a, b: str(a) == b):
+    """Linkteki değerin seçenekler içindeki sırası; yoksa ilk seçenek."""
+    if anahtar in LINK:
+        for sira, secenek in enumerate(secenekler):
+            if karsilastir(secenek, LINK[anahtar]):
+                return sira
+    return 0
+
+def _hacim_esit(hacim, metin):
+    try:
+        return abs(hacim - float(metin)) < 0.005
+    except ValueError:
+        return False
+
 # ---------- Kenar çubuğu: veri kaynağı ve ürün seçimi ----------
 
+KAYNAKLAR = ["📦 Kayıtlı veri", "🧪 Demo"]
 kaynak = st.sidebar.radio(
-    "Veri kaynağı",
-    ["📦 Kayıtlı veri", "🧪 Demo"],
+    "Veri kaynağı", KAYNAKLAR, index=1 if LINK.get("kaynak") == "demo" else 0,
     help="Kayıtlı veri: her sabah veri_topla.py ile Amazon TR'den toplanan son ilanlar.\n\n"
          "Demo: veritabanı olmadan denemek için depodaki gerçek bir taramanın anlık görüntüsü.")
 demo = kaynak == "🧪 Demo"
@@ -42,20 +60,26 @@ else:
     tarih = veri_secenek["veri_tarihi"]
     st.sidebar.caption(f"Veri: {tarih['en_eski'][:16]} – {tarih['en_yeni'][:16]}")
 
-    kategori = st.sidebar.selectbox("Kategori", sorted({s["kategori"] for s in secenekler}))
+    kategoriler = sorted({s["kategori"] for s in secenekler})
+    kategori = st.sidebar.selectbox("Kategori", kategoriler, index=_link_sirasi(kategoriler, "kategori"))
     s_kat = [s for s in secenekler if s["kategori"] == kategori]
-    seri = st.sidebar.selectbox("Seri", sorted({s["seri"] for s in s_kat}))
+    seriler = sorted({s["seri"] for s in s_kat})
+    seri = st.sidebar.selectbox("Seri", seriler, index=_link_sirasi(seriler, "seri"))
     s_seri = [s for s in s_kat if s["seri"] == seri]
 
-    alt_seriler = sorted({s["alt_seri"] for s in s_seri if s["alt_seri"]})
-    alt_seri = st.sidebar.selectbox("Alt seri", ["Tümü"] + alt_seriler) if alt_seriler else "Tümü"
+    alt_seriler = ["Tümü"] + sorted({s["alt_seri"] for s in s_seri if s["alt_seri"]})
+    alt_seri = (st.sidebar.selectbox("Alt seri", alt_seriler, index=_link_sirasi(alt_seriler, "alt_seri"))
+                if len(alt_seriler) > 1 else "Tümü")
     s_alt = [s for s in s_seri if alt_seri == "Tümü" or s["alt_seri"] == alt_seri]
 
     hacimler = {}
     for s in s_alt:
         hacimler[s["hacim"]] = hacimler.get(s["hacim"], 0) + s["ilan_sayisi"]
-    hacim = st.sidebar.selectbox("Hacim", sorted(hacimler), format_func=lambda h: f"{h} L ({hacimler[h]} ilan)")
-    renk = st.sidebar.selectbox("Renk", ["Fark etmez"] + RENKLER)
+    hacim_listesi = sorted(hacimler)
+    hacim = st.sidebar.selectbox("Hacim", hacim_listesi, index=_link_sirasi(hacim_listesi, "hacim", _hacim_esit),
+                                 format_func=lambda h: f"{h} L ({hacimler[h]} ilan)")
+    renk_listesi = ["Fark etmez"] + RENKLER
+    renk = st.sidebar.selectbox("Renk", renk_listesi, index=_link_sirasi(renk_listesi, "renk"))
 
     parametreler = {"kategori": kategori, "seri": seri, "hacim": hacim, "renk": renk, "demo": demo,
                     "alt_seri": "" if alt_seri == "Tümü" else alt_seri}
@@ -152,7 +176,8 @@ def sonucu_goster(veri):
             width="stretch", hide_index=True
         )
 
-if st.sidebar.button("Piyasayı Analiz Et", disabled=not hazir):
+butona_basildi = st.sidebar.button("Piyasayı Analiz Et", disabled=not hazir)
+if hazir and (butona_basildi or LINK.get("analiz") == "1"):
     with st.spinner("Hesaplanıyor..."):
         try:
             istek = requests.get(f"{API}/kayitli-fiyat", params=parametreler, timeout=30)
