@@ -20,13 +20,13 @@ def _fiyatlandir(piyasa, urun_adi, alis_maliyeti, komisyon_orani, kargo, min_mar
     """Piyasa özetinden kural tabanlı öneri + talep modeli optimumu hesaplar."""
     adil_deger = piyasa["medyan"]   # ortalama değil medyan: tek bir aşırı pahalı/ucuz ilandan etkilenmez
 
+    # Rakipler, piyasa istatistikleriyle aynı ilanlardan seçilir (renk filtresi uygulandıysa sadece o renk)
+    rakip_fiyatlari = [i["fiyat"] for i in piyasa["ilanlar"] if i["renk_eslesti"] or not piyasa["renk_filtresi"]]
     try:
-        sonuc = strateji_belirle(piyasa["en_ucuz"], adil_deger, alis_maliyeti, komisyon_orani, kargo, min_marj)
+        sonuc = strateji_belirle(rakip_fiyatlari, adil_deger, alis_maliyeti, komisyon_orani, kargo, min_marj)
     except ValueError as e:
         return {"hata": str(e)}
 
-    # Buybox rakibi, piyasa istatistikleriyle aynı ilanlardan seçilir (renk filtresi uygulandıysa sadece o renk)
-    rakip_fiyatlari = [i["fiyat"] for i in piyasa["ilanlar"] if i["renk_eslesti"] or not piyasa["renk_filtresi"]]
     egri = kar_egrisi(adil_deger, buybox_referansi(rakip_fiyatlari, adil_deger), sonuc["taban_fiyat"], aylik_satis,
                       alis_maliyeti, komisyon_orani, kargo)
 

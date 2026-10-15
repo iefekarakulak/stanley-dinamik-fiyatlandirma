@@ -47,18 +47,21 @@ def buybox_referansi(rakip_fiyatlari, medyan):
     normal_rakipler = [f for f in rakip_fiyatlari if f >= medyan * AYKIRI_ESIK]
     return min(normal_rakipler) if normal_rakipler else medyan
 
-def strateji_belirle(en_ucuz_rakip, medyan, alis_maliyeti, komisyon_orani, kargo, min_marj):
-    """Rekabetçi fiyatı bulur ama asla taban fiyatın (zarar sınırının) altına inmez."""
+def strateji_belirle(rakip_fiyatlari, medyan, alis_maliyeti, komisyon_orani, kargo, min_marj):
+    """Buybox rakibinin (aykırı ucuz ilanlar hariç en ucuz rakip) biraz altına iner,
+    ama asla taban fiyatın (zarar sınırının) altına inmez. Talep modeliyle aynı rakibi referans alır."""
     taban = taban_fiyat(alis_maliyeti, komisyon_orani, kargo, min_marj)
+    en_ucuz = min(rakip_fiyatlari)
+    rakip = buybox_referansi(rakip_fiyatlari, medyan)
+    aday = rakip - BUYBOX_FARKI
 
-    if en_ucuz_rakip < medyan * AYKIRI_ESIK:
-        fark_yuzde = round((1 - en_ucuz_rakip / medyan) * 100)
-        aday = medyan * 0.95
-        strateji = (f"En ucuz satıcı ({en_ucuz_rakip} TL) piyasa medyanının %{fark_yuzde} altında: muhtemelen stok eritiyor "
-                    f"ya da şüpheli bir ilan. Onunla fiyat savaşına girme, medyanın %5 altında konumlan.")
+    if en_ucuz < medyan * AYKIRI_ESIK:
+        fark_yuzde = round((1 - en_ucuz / medyan) * 100)
+        strateji = (f"En ucuz satıcı ({en_ucuz} TL) piyasa medyanının %{fark_yuzde} altında: muhtemelen stok eritiyor "
+                    f"ya da şüpheli bir ilan. Onunla fiyat savaşına girme; sıradaki gerçek rakibin ({rakip} TL) "
+                    f"{BUYBOX_FARKI} TL altına inerek Buybox'ı al.")
     else:
-        aday = en_ucuz_rakip - BUYBOX_FARKI
-        strateji = (f"En ucuz satıcı ({en_ucuz_rakip} TL) piyasayla uyumlu fiyatta. "
+        strateji = (f"En ucuz satıcı ({en_ucuz} TL) piyasayla uyumlu fiyatta. "
                     f"{BUYBOX_FARKI} TL altına inerek Buybox'ı (satış önceliğini) sen al!")
 
     if aday < taban:

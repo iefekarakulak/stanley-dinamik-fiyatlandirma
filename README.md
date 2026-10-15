@@ -87,7 +87,9 @@ birim_net_kâr = fiyat × (1 − komisyon) − alış_maliyeti − kargo
 taban_fiyat   = (alış_maliyeti + kargo) / (1 − komisyon − min_marj)
 ```
 
-**Kural tabanlı öneri:** En ucuz rakip piyasa medyanının %85'inin altındaysa (stok eritme / şüpheli ilan) onunla yarışılmaz, medyanın %5 altında konumlanılır. Aksi halde en ucuz rakibin 5 TL altına inilir. Her durumda sonuç taban fiyatın altına düşmez.
+**Kural tabanlı öneri:** Buybox rakibinin 5 TL altına inilir. Buybox rakibi en ucuz ilandır; ancak piyasa medyanının %85'inin altındaki ilanlar (stok eritme / şüpheli ilan) yok sayılır ve sıradaki gerçek rakip alınır. Talep modeli de aynı rakibi referans alır. Her durumda sonuç taban fiyatın altına düşmez.
+
+> İlk sürümde aykırı ucuz bir rakip varken kural "medyanın %5 altına" konumlanıyordu. Bu, aradaki gerçek rakipleri atlıyordu: demo verisinde kural 2.099 TL önerirken 1.885 TL'de satan bir rakip vardı ve talep modeli 1.829 TL'yi optimum buluyordu. Kural, modelle aynı rakibi referans alacak şekilde düzeltildi; şimdi 1.880 TL öneriyor.
 
 **Model tabanlı optimum:**
 
