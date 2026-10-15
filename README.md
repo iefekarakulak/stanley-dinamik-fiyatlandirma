@@ -42,7 +42,7 @@ flowchart LR
     DB --> EGIT
     EGIT --> SMDL[(Stanley talep modeli)]
     UCI[talep_modeli_egitimi.py] -->|UCI Online Retail II| UMDL[(Genel talep modeli)]
-    UI[Streamlit arayüzü<br/>arayuz.py] -->|HTTP| API[FastAPI<br/>api.py]
+    UI[Streamlit arayüzü<br/>arayuz.py] -->|doğrudan ya da HTTP| API[FastAPI<br/>api.py]
     API --> DB
     API --> FH[Kâr ve strateji<br/>fiyat_hesap.py]
     API --> TM[Talep modeli<br/>talep.py]
@@ -157,14 +157,16 @@ pip install -r requirements.txt
 # Yeniden eğitmek için UCI'den online+retail+ii.zip'i indirip online_retail_II.xlsx'i veri/ klasörüne çıkarın
 python talep_modeli_egitimi.py
 
-# Amazon TR'den güncel Stanley ilanlarını topla (günde en fazla 1 kez)
+# Amazon TR'den güncel Stanley ilanlarını topla (günde en fazla 1 kez; atlanırsa arayüz demo verisiyle açılır)
 python veri_topla.py
 
-# 1. terminal: API
-python -m uvicorn api:app --reload
-
-# 2. terminal: arayüz
+# Arayüz
 python -m streamlit run arayuz.py
+
+# (İsteğe bağlı) FastAPI servisini ayrı çalıştırmak: arayüz FIYAT_API_URL tanımlıysa hesaplamaları HTTP ile ister,
+# tanımlı değilse aynı fonksiyonları doğrudan çağırır
+python -m uvicorn api:app
+# PowerShell: $env:FIYAT_API_URL="http://127.0.0.1:8000"; python -m streamlit run arayuz.py
 
 # Testler
 python -m pytest tests

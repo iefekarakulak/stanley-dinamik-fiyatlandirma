@@ -1,19 +1,32 @@
-import streamlit as st
-import requests
-import plotly.graph_objects as go
+import json
+import os
 
-API = "http://127.0.0.1:8000"
+import plotly.graph_objects as go
+import requests
+import streamlit as st
+
+# FIYAT_API_URL tanımlıysa (örn. http://127.0.0.1:8000) hesaplamalar ayrı çalışan FastAPI servisine gönderilir.
+# Tanımlı değilse aynı fonksiyonlar bu süreçte doğrudan çağrılır: tek komutla çalışır ve
+# Streamlit Community Cloud gibi tek süreçli ortamlarda da yayınlanabilir.
+API_ADRESI = os.environ.get("FIYAT_API_URL")
 RENKLER = ["Yeşil", "Siyah", "Lacivert", "Beyaz", "Mat Siyah", "Çelik"]
 
-st.set_page_config(page_title="Dinamik Fiyatlandırma Motoru", layout="wide")
-st.title("🚀 Stanley Dinamik Fiyatlandırma Motoru")
+st.set_page_config(page_title="Stanley Fiyat Optimizasyonu", page_icon="📈", layout="wide")
+st.title("📈 Stanley Pazar Analizi ve Kâr Optimizasyonu")
 st.markdown("Amazon TR'deki Stanley rekabetini analiz ederek kârı en yüksek yapan fiyatı belirler.")
+
+def api_cagir(yol, parametreler):
+    if API_ADRESI:
+        istek = requests.get(f"{API_ADRESI}{yol}", params=parametreler, timeout=30)
+        istek.raise_for_status()
+        return istek.json()
+    import api
+    fonksiyon = {"/urun-secenekleri": api.urun_secenekleri, "/kayitli-fiyat": api.kayitli_fiyat_hesapla}[yol]
+    return json.loads(json.dumps(fonksiyon(**parametreler)))   # HTTP yanıtıyla aynı biçim
 
 @st.cache_data(ttl=60, show_spinner=False)
 def urun_secenekleri(demo):
-    istek = requests.get(f"{API}/urun-secenekleri", params={"demo": demo}, timeout=10)
-    istek.raise_for_status()
-    return istek.json()
+    return api_cagir("/urun-secenekleri", {"demo": demo})
 
 # Paylaşılabilir link: ?kaynak=demo&kategori=Pipetli Bardak&seri=Quencher&alt_seri=ProTour&hacim=1.18&analiz=1
 # seçimleri önceden doldurur, analiz=1 ise analizi butona basmadan gösterir.
@@ -35,21 +48,31 @@ def _hacim_esit(hacim, metin):
 
 # ---------- Kenar çubuğu: veri kaynağı ve ürün seçimi ----------
 
+def secenekleri_getir(demo):
+    try:
+        return urun_secenekleri(demo)
+    except requests.exceptions.RequestException:
+        st.sidebar.error(f"API'ye ulaşılamadı ({API_ADRESI}). Sunucuyu başlatın: python -m uvicorn api:app")
+        return {"secenekler": []}
+
+# Kayıtlı veri yoksa (ör. bulutta yayınlanan sürüm) demo verisiyle açılır
+kayitli_var = bool(secenekleri_getir(demo=False)["secenekler"])
 KAYNAKLAR = ["📦 Kayıtlı veri", "🧪 Demo"]
+link_kaynagi = LINK.get("kaynak")
 kaynak = st.sidebar.radio(
-    "Veri kaynağı", KAYNAKLAR, index=1 if LINK.get("kaynak") == "demo" else 0,
+    "Veri kaynağı", KAYNAKLAR,
+    index=1 if link_kaynagi == "demo" or (link_kaynagi != "kayitli" and not kayitli_var) else 0,
     help="Kayıtlı veri: her sabah veri_topla.py ile Amazon TR'den toplanan son ilanlar.\n\n"
          "Demo: veritabanı olmadan denemek için depodaki gerçek bir taramanın anlık görüntüsü.")
 demo = kaynak == "🧪 Demo"
+if demo and not kayitli_var:
+    st.info("🧪 Bu sürüm, Amazon TR'den toplanmış gerçek Stanley ilanlarının bir anlık görüntüsüyle çalışıyor. "
+            "Soldan bir ürün seçip **Piyasayı Analiz Et**'e basın.")
 
 st.sidebar.header("🔍 Ürün")
 parametreler, hazir = {}, True
 
-try:
-    veri_secenek = urun_secenekleri(demo)
-except requests.exceptions.RequestException:
-    st.sidebar.error("API'ye ulaşılamadı: python -m uvicorn api:app --reload")
-    veri_secenek = {"secenekler": []}
+veri_secenek = secenekleri_getir(demo)
 secenekler = veri_secenek["secenekler"]
 
 if not secenekler:
@@ -180,19 +203,17 @@ butona_basildi = st.sidebar.button("Piyasayı Analiz Et", disabled=not hazir)
 if hazir and (butona_basildi or LINK.get("analiz") == "1"):
     with st.spinner("Hesaplanıyor..."):
         try:
-            istek = requests.get(f"{API}/kayitli-fiyat", params=parametreler, timeout=30)
-            istek.raise_for_status()
-            veri = istek.json()
+            veri = api_cagir("/kayitli-fiyat", parametreler)
             if "hata" in veri:
                 st.error(veri["hata"])
             else:
                 sonucu_goster(veri)
         except requests.exceptions.ConnectionError:
-            st.error("API sunucusuna ulaşılamadı. Uvicorn sunucusunun çalıştığından emin olun: python -m uvicorn api:app --reload")
+            st.error(f"API sunucusuna ulaşılamadı ({API_ADRESI}). Sunucuyu başlatın: python -m uvicorn api:app")
         except requests.exceptions.Timeout:
             st.error("API zamanında cevap vermedi, tekrar deneyin.")
-        except requests.exceptions.HTTPError:
-            st.error(f"API hata döndürdü ({istek.status_code}). Ayrıntı için uvicorn terminaline bakın.")
-            st.code(istek.text)
+        except requests.exceptions.HTTPError as e:
+            st.error(f"API hata döndürdü ({e.response.status_code}). Ayrıntı için uvicorn terminaline bakın.")
+            st.code(e.response.text)
         except Exception as e:
             st.error(f"Beklenmeyen hata: {type(e).__name__}: {e}")
