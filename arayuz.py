@@ -1,5 +1,6 @@
 import json
 import os
+from datetime import datetime
 
 import plotly.graph_objects as go
 import requests
@@ -55,17 +56,16 @@ def secenekleri_getir(demo):
         st.sidebar.error(f"API'ye ulaşılamadı ({API_ADRESI}). Sunucuyu başlatın: python -m uvicorn api:app")
         return {"secenekler": []}
 
-# Kayıtlı veri yoksa (ör. bulutta yayınlanan sürüm) demo verisiyle açılır
+# Kayıtlı veri yoksa (ör. bulutta yayınlanan sürüm) sadece demo verisi sunulur
 kayitli_var = bool(secenekleri_getir(demo=False)["secenekler"])
-KAYNAKLAR = ["📦 Kayıtlı veri", "🧪 Demo"]
-link_kaynagi = LINK.get("kaynak")
+KAYNAKLAR = ["📦 Kayıtlı veri", "🧪 Demo"] if kayitli_var else ["🧪 Demo"]
 kaynak = st.sidebar.radio(
     "Veri kaynağı", KAYNAKLAR,
-    index=1 if link_kaynagi == "demo" or (link_kaynagi != "kayitli" and not kayitli_var) else 0,
+    index=KAYNAKLAR.index("🧪 Demo") if LINK.get("kaynak") == "demo" else 0,
     help="Kayıtlı veri: her sabah veri_topla.py ile Amazon TR'den toplanan son ilanlar.\n\n"
          "Demo: veritabanı olmadan denemek için depodaki gerçek bir taramanın anlık görüntüsü.")
 demo = kaynak == "🧪 Demo"
-if demo and not kayitli_var:
+if not kayitli_var:
     st.info("🧪 Bu sürüm, Amazon TR'den toplanmış gerçek Stanley ilanlarının bir anlık görüntüsüyle çalışıyor. "
             "Soldan bir ürün seçip **Piyasayı Analiz Et**'e basın.")
 
@@ -76,12 +76,15 @@ veri_secenek = secenekleri_getir(demo)
 secenekler = veri_secenek["secenekler"]
 
 if not secenekler:
-    if not demo:
-        st.sidebar.warning("Son 7 günde kayıtlı veri yok. `python veri_topla.py` çalıştırın ya da Demo'yu seçin.")
     hazir = False
 else:
     tarih = veri_secenek["veri_tarihi"]
     st.sidebar.caption(f"Veri: {tarih['en_eski'][:16]} – {tarih['en_yeni'][:16]}")
+    if not demo:
+        eskilik = (datetime.now() - datetime.strptime(tarih["en_yeni"][:19], "%Y-%m-%d %H:%M:%S")).days
+        if eskilik >= 2:
+            st.sidebar.warning(f"Son başarılı tarama {eskilik} gün önce. Günlük güncellemenin loglarını "
+                               "kontrol edin (logs/gunluk_guncelleme.log).")
 
     kategoriler = sorted({s["kategori"] for s in secenekler})
     kategori = st.sidebar.selectbox("Kategori", kategoriler, index=_link_sirasi(kategoriler, "kategori"))

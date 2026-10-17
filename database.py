@@ -81,7 +81,8 @@ def _analize_uygun(ilan):
     return not ilan["aksesuar"] and not ilan["ucuncu_parti"] and ilan["fiyat"] is not None and ilan["hacim_litre"] is not None
 
 def kayitli_ilanlar(gun=7, demo=False):
-    """Analizde kullanılacak ilanlar: her ilanın son `gun` gündeki EN GÜNCEL kaydı.
+    """Analizde kullanılacak ilanlar: her ilanın, SON TARAMADAN geriye `gun` gün içindeki EN GÜNCEL kaydı.
+    Pencere bugünden değil son taramadan sayılır: Amazon birkaç gün üst üste engellerse eldeki veri kaybolmaz.
     Aksesuarlar, Stanley Tools aletleri, başka firmaların uyumlu ürünleri ve hacmi okunamayan ilanlar hariç.
     demo=True: veritabanı yerine ornek_veri/stanley_ornek.json kullanılır."""
     if demo:
@@ -98,7 +99,7 @@ def kayitli_ilanlar(gun=7, demo=False):
             SELECT * FROM (
                 SELECT *, ROW_NUMBER() OVER (PARTITION BY COALESCE(asin, baslik) ORDER BY tarih DESC) AS sira
                 FROM urun_gozlem
-                WHERE tarih >= datetime('now', 'localtime', ?)
+                WHERE tarih >= datetime((SELECT MAX(tarih) FROM urun_gozlem), ?)
             ) WHERE sira = 1
         ''', (f"-{int(gun)} days",)).fetchall()
     return [i for i in map(dict, satirlar) if _analize_uygun(i)]

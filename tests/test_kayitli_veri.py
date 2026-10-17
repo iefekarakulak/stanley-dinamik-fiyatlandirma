@@ -1,6 +1,7 @@
 """Kayıtlı veriden fiyatlandırma: geçici bir veritabanıyla uçtan uca (Amazon'a gitmez)."""
 import os
 import sys
+from datetime import datetime, timedelta
 
 import pytest
 
@@ -45,7 +46,7 @@ def test_kayitli_fiyat_aksesuarlari_katmaz():
 def test_ayni_ilanin_en_guncel_fiyati_kullanilir():
     database.urun_gozlemlerini_kaydet("stanley", [
         ilan("A1", "stanley quencher h2.0 flowstate pipetli termos bardak 1.18 litre - siyah", 2100, 1.18)],
-        zaman="2099-01-01 00:00:00")
+        zaman=(datetime.now() + timedelta(minutes=1)).strftime("%Y-%m-%d %H:%M:%S"))
     sonuc = api.kayitli_fiyat_hesapla(kategori="Pipetli Bardak", seri="Quencher", hacim=1.18,
                                       alt_seri="", renk="Fark etmez", **ORTAK)
     assert sonuc["piyasa"]["satici_sayisi"] == 3   # A1 iki kez sayılmadı
@@ -55,3 +56,15 @@ def test_veri_olmayan_urun_hata_verir():
     sonuc = api.kayitli_fiyat_hesapla(kategori="Termos", seri="Classic Legendary", hacim=1.0,
                                       alt_seri="", renk="Fark etmez", **ORTAK)
     assert "hata" in sonuc
+
+def test_eski_veri_kaybolmaz_pencere_son_taramadan_sayilir(tmp_path, monkeypatch):
+    # Amazon günlerce engellese bile son başarılı taramanın verisi kullanılmaya devam eder
+    monkeypatch.setattr(database, "VERITABANI", str(tmp_path / "eski.db"))
+    database.urun_gozlemlerini_kaydet("stanley", [
+        ilan("E1", "stanley quencher h2.0 flowstate pipetli termos bardak 1.18 litre - siyah", 2200, 1.18)],
+        zaman="2020-01-10 06:00:00")
+    database.urun_gozlemlerini_kaydet("stanley", [
+        ilan("E0", "stanley quencher h2.0 flowstate pipetli termos bardak 1.18 litre - krem", 2100, 1.18)],
+        zaman="2019-12-01 06:00:00")   # son taramadan 40 gün önce: pencere dışında
+    ilanlar = database.kayitli_ilanlar(gun=7)
+    assert [i["asin"] for i in ilanlar] == ["E1"]

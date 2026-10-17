@@ -20,7 +20,7 @@ def bos_veritabani(tmp_path, monkeypatch):
 def test_veritabani_yokken_demo_ile_acilir():
     at = AppTest.from_file(ARAYUZ, default_timeout=60).run()
     assert not at.exception
-    assert at.sidebar.radio[0].value == "🧪 Demo"
+    assert at.sidebar.radio[0].options == ["🧪 Demo"]       # kayıtlı veri seçeneği hiç gösterilmez
     assert any("anlık görüntü" in i.value for i in at.info)
     assert len(at.sidebar.selectbox[0].options) > 3        # demo kataloğundaki kategoriler
 
