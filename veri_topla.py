@@ -38,6 +38,7 @@ def main():
           f"({sum(u['aksesuar'] for u in urunler)} aksesuar) ===")
     for (kategori, seri), adet in sorted(ozet.items(), key=lambda x: -x[1]):
         print(f"  {adet:>4}  {kategori} / {seri}")
+    return {"ilan_sayisi": len(urunler), "engellendi": sonuc["engellendi"]}
 
 if __name__ == "__main__":
     main()

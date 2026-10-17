@@ -109,6 +109,8 @@ def ornek_veriyi_guncelle(gun=1):
     alanlar = ["tarih", "asin", "baslik", "fiyat", "hacim_litre", "aylik_satis_rozeti", "aylik_satis_tahmini",
                "yorum_sayisi", "puan", "onceki_fiyat", "stok_adedi", "sponsorlu"]
     ilanlar = [{a: i[a] for a in alanlar} for i in kayitli_ilanlar(gun)]
+    if not ilanlar:
+        return 0   # mevcut demo verisi boş bir taramayla ezilmesin
     os.makedirs(os.path.dirname(ORNEK_VERI), exist_ok=True)
     with open(ORNEK_VERI, "w", encoding="utf-8") as f:
         json.dump({"aciklama": "Demo modu için Amazon TR'den toplanmış gerçek Stanley ilanlarının anlık görüntüsü.",

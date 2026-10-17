@@ -76,7 +76,7 @@ Arayüz Amazon'a istek atmaz; veri, her sabah çalışan günlük güncellemeyle
 | Kaynak | Nasıl çalışır |
 |---|---|
 | **📦 Kayıtlı veri** (varsayılan) | Son 7 günün ilanları. Ürün **kategori → seri → alt seri → hacim** olarak seçilir; her ilanın en güncel fiyatı kullanılır, aksesuarlar hariç tutulur. |
-| **🧪 Demo** | `ornek_veri/stanley_ornek.json`: gerçek bir taramanın anlık görüntüsü (285 ilan). Veritabanı ve Amazon erişimi olmadan tüm uygulama denenebilir. |
+| **🧪 Demo** | `ornek_veri/stanley_ornek.json`: son başarılı taramanın anlık görüntüsü. Günlük güncelleme her tam taramadan sonra bu dosyayı yenileyip GitHub'a gönderir; Streamlit Cloud'daki yayın böylece her gün güncel veriyle çalışır. Veritabanı ve Amazon erişimi olmadan tüm uygulama denenebilir. |
 
 ## Fiyatlandırma mantığı
 
@@ -135,6 +135,8 @@ Her gün (Görev Zamanlayıcı → gunluk_calistir.bat → gunluk_guncelleme.py)
   1. veri_topla.py               Amazon TR'deki Stanley ilanları → urun_gozlem tablosuna eklenir
   2. stanley_modeli_egitimi.py   Birikmiş tüm günlerle Stanley talep modeli yeniden eğitilir
   3. API                         Yeni model, yeniden başlatmaya gerek kalmadan kullanılır
+  4. Demo yayını                 Tam bir taramadan sonra demo verisi yenilenir ve yalnızca o dosya
+                                 GitHub'a gönderilir → Streamlit Cloud kendini günceller
 ```
 
 **Stanley talep modeli** (`stanley_modeli_egitimi.py`): Aynı gün aynı ürün grubundaki (seri + alt seri + hacim) ilanlar karşılaştırılır. Hedef "Geçen ay X adetten fazla satın alındı" rozetinden aylık satış tahmini, ana özellik `log(fiyat / grup medyanı)`. Yorum sayısı, puan, indirim oranı ve sponsorlu bilgisi kontrol özelliği olarak kullanılır (çok yorumlu bir ilan hem pahalı hem çok satan olabilir).

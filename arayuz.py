@@ -66,8 +66,9 @@ kaynak = st.sidebar.radio(
          "Demo: veritabanı olmadan denemek için depodaki gerçek bir taramanın anlık görüntüsü.")
 demo = kaynak == "🧪 Demo"
 if not kayitli_var:
-    st.info("🧪 Bu sürüm, Amazon TR'den toplanmış gerçek Stanley ilanlarının bir anlık görüntüsüyle çalışıyor. "
-            "Soldan bir ürün seçip **Piyasayı Analiz Et**'e basın.")
+    demo_tarihi = (secenekleri_getir(demo=True)["veri_tarihi"]["en_yeni"] or "")[:10]
+    st.info(f"🧪 Bu sürüm, Amazon TR'den **{demo_tarihi}** tarihinde toplanmış gerçek Stanley ilanlarının anlık "
+            "görüntüsüyle çalışıyor (her gün otomatik güncellenir). Soldan bir ürün seçip **Piyasayı Analiz Et**'e basın.")
 
 st.sidebar.header("🔍 Ürün")
 parametreler, hazir = {}, True
