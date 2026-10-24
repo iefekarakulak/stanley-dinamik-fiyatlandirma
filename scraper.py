@@ -5,6 +5,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
+import os
 import random
 import re
 import time
@@ -73,8 +74,13 @@ def kart_ek_bilgileri(kart, fiyat=None):
         pass
     return bilgi
 
+# Kalıcı tarayıcı profili (kullanıcının kendi Chrome profilinden ayrı): her gün aynı çerezlerle gelen bir ziyaretçi,
+# her seferinde sıfırdan açılan çerezsiz bir tarayıcıdan çok daha doğal görünür.
+PROFIL_KLASORU = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".tarayici_profili")
+
 def tarayici_ac():
     options = Options()
+    options.add_argument(f'--user-data-dir={PROFIL_KLASORU}')
     options.add_argument('--window-size=1920,1080')
     options.add_argument('--lang=tr-TR')
     options.add_experimental_option("prefs", {"intl.accept_languages": "tr-TR,tr"})

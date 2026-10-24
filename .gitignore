@@ -11,3 +11,6 @@ model/stanley_talep_modeli*
 
 # Büyük ham veri: README'deki adımla indirilir
 veri/
+
+# Scraper'ın kalıcı tarayıcı profili (çerezler)
+.tarayici_profili/
