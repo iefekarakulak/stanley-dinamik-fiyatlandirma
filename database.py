@@ -64,6 +64,13 @@ def urun_gozlemlerini_kaydet(arama_terimi, urunler, zaman=None):
               for u in urunler])
     print(f"[VERİ] '{arama_terimi}': {len(urunler)} ilan kaydedildi")
 
+def gunun_ilan_sayisi(gun=None):
+    """Belirtilen günde (varsayılan bugün) kaydedilen ilan sayısı."""
+    veritabanini_hazirla()
+    gun = gun or datetime.now().strftime("%Y-%m-%d")
+    with _baglan() as conn:
+        return conn.execute("SELECT COUNT(*) FROM urun_gozlem WHERE substr(tarih, 1, 10) = ?", (gun,)).fetchone()[0]
+
 def kategorileri_yenile(kategorize=kategorize_et):
     """Kategori kuralları geliştikçe TÜM geçmiş kayıtları yeniden kategoriler (kategori başlıktan türetilen bir alan)."""
     veritabanini_hazirla()

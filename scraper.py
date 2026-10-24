@@ -4,6 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import random
 import re
 import time
 
@@ -74,14 +75,13 @@ def kart_ek_bilgileri(kart, fiyat=None):
 def tarayici_ac():
     options = Options()
     options.add_argument('--window-size=1920,1080')
+    options.add_argument('--lang=tr-TR')
+    options.add_experimental_option("prefs", {"intl.accept_languages": "tr-TR,tr"})
+    # Sahte user-agent kullanılmaz: önceden "Chrome 114" yazılıyordu, oysa çalışan tarayıcı çok daha yeni bir sürümdü.
+    # Bildirilen sürümle tarayıcının gerçek özelliklerinin çelişmesi, otomasyonu ele veren bir işaretti.
     options.add_argument('--disable-blink-features=AutomationControlled')
-    options.add_argument('user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36')
     options.add_experimental_option("excludeSwitches", ["enable-automation"])
-    options.add_experimental_option('useAutomationExtension', False)
-
-    driver = webdriver.Chrome(options=options)
-    driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
-    return driver
+    return webdriver.Chrome(options=options)
 
 def engel_var_mi(driver):
     # Amazon botu engellediyse ürün listesi yerine "Üzgünüz" ya da robot doğrulama sayfası gelir
@@ -104,9 +104,18 @@ def genis_tarama(arama_terimi, sayfa_sayisi=3, sayfalar_arasi_bekleme=30, marka_
     gorulen_urunler = set()
 
     try:
+        # Doğrudan arama adresine atlamak yerine, normal bir ziyaretçi gibi önce ana sayfa açılır
+        # (Amazon oturum çerezlerini burada verir; çerezsiz ilk istek olarak arama sayfası şüpheli görünür).
+        print("Amazon ana sayfası açılıyor...")
+        driver.get("https://www.amazon.com.tr/")
+        if engel_var_mi(driver):
+            print(f"Amazon erişimi engelledi (sayfa başlığı: {driver.title})")
+            return {"engellendi": True, "urunler": urunler}
+        time.sleep(random.uniform(3, 6))
+
         for sayfa in range(1, sayfa_sayisi + 1):
             if sayfa > 1:
-                time.sleep(sayfalar_arasi_bekleme)
+                time.sleep(sayfalar_arasi_bekleme * random.uniform(0.8, 1.3))
 
             url = f"https://www.amazon.com.tr/s?k={arama_terimi.replace(' ', '+')}&page={sayfa}"
             if marka_filtresi:
