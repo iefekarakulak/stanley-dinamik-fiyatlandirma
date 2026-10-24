@@ -148,6 +148,8 @@ Her gün (Görev Zamanlayıcı → gunluk_calistir.bat → gunluk_guncelleme.py)
 
 Bu kurallar sentetik veriyle test edildi: fiyatın satışı etkilediği veride model devreye giriyor ve esnekliği yakalıyor; fiyatın etkisiz olduğu veride devreye girmiyor.
 
+Günlük güncellemenin son durumu (son çalışma, son başarılı tarama, veri seti büyüklüğü, model ve bulut demo durumu) için: `python durum.py`.
+
 Durum her eğitimden sonra `model/stanley_talep_modeli_metrikler.json` dosyasına, günlük çıktılar `logs/gunluk_guncelleme.log` dosyasına yazılır. Arayüzdeki kâr eğrisi altında hangi modelin kullanıldığı gösterilir.
 
 ## Kurulum ve çalıştırma
