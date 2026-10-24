@@ -4,6 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException
 import random
 import re
 import time
@@ -81,7 +82,12 @@ def tarayici_ac():
     # Bildirilen sürümle tarayıcının gerçek özelliklerinin çelişmesi, otomasyonu ele veren bir işaretti.
     options.add_argument('--disable-blink-features=AutomationControlled')
     options.add_experimental_option("excludeSwitches", ["enable-automation"])
-    return webdriver.Chrome(options=options)
+    # Sayfanın tüm reklam/takip kaynaklarını beklemez, HTML hazır olunca devam eder: bunlardan biri asılı kalınca
+    # driver.get 120 sn'lik zaman aşımına kadar donuyordu (24.10 taramasında 3. sayfa)
+    options.page_load_strategy = "eager"
+    driver = webdriver.Chrome(options=options)
+    driver.set_page_load_timeout(60)
+    return driver
 
 def engel_var_mi(driver):
     # Amazon botu engellediyse ürün listesi yerine "Üzgünüz" ya da robot doğrulama sayfası gelir
@@ -122,7 +128,12 @@ def genis_tarama(arama_terimi, sayfa_sayisi=3, sayfalar_arasi_bekleme=30, marka_
                 # Amazon'un marka filtresi: sadece bu markanın kendi ürünleri (uyumlu aksesuar satıcıları elenir)
                 url += f"&rh=p_89%3A{marka_filtresi}"
             print(f"[{arama_terimi}] sayfa {sayfa} taranıyor...")
-            driver.get(url)
+            try:
+                driver.get(url)
+            except TimeoutException:
+                # Ürün listesi çoğu zaman yüklenmiş olur; yüklemeyi durdurup sayfadakiyle devam edilir
+                print("  Sayfa 60 sn'de tam yüklenmedi, yüklenen kısımla devam ediliyor.")
+                driver.execute_script("window.stop();")
 
             if engel_var_mi(driver):
                 print(f"Amazon erişimi engelledi (sayfa başlığı: {driver.title})")
@@ -157,7 +168,13 @@ def genis_tarama(arama_terimi, sayfa_sayisi=3, sayfalar_arasi_bekleme=30, marka_
                 except Exception:
                     continue
             print(f"  {sayfadaki} ürün kaydedildi")
+    except Exception as e:
+        # Tarayıcı hatası taramayı bitirir ama o ana kadar toplananlar kaybolmaz (24.10'da 95 ilan kaybolmuştu)
+        print(f"[HATA] Tarama yarıda kaldı ({type(e).__name__}); toplanan {len(urunler)} ilan korunuyor.")
     finally:
-        driver.quit()
+        try:
+            driver.quit()
+        except Exception:
+            pass
 
     return {"engellendi": False, "urunler": urunler}
