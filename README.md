@@ -178,7 +178,7 @@ python -m pytest tests
 
 Selenium için Chrome kurulu olmalıdır. Veri toplamadan denemek için arayüzde **🧪 Demo** kaynağını seçin.
 
-**Günlük otomatik güncelleme (Windows):** Görev Zamanlayıcı'da `gunluk_calistir.bat` dosyasını her gün çalıştıran bir görev oluşturun ("kaçırılırsa ilk fırsatta çalıştır" seçeneği açık).
+**Günlük otomatik güncelleme (Windows):** Görev Zamanlayıcı'da `pythonw gunluk_guncelleme.py --log` komutunu çalıştıran bir görev oluşturun. Tetikleyiciler: her gün 06:00, oturum açılınca ve kilit açılınca (bilgisayar sabah uykudaysa). Script aynı gün başarılı bir taramadan sonra kendini atladığı için fazladan tetiklenmesi Amazon'a ek istek göndermez. Elle çalıştırmak için `gunluk_calistir.bat`.
 
 ## Veri toplama
 

@@ -1,7 +1,8 @@
 """Günlük güncelleme: Amazon TR'den Stanley ilanlarını toplar, veri setine ekler, Stanley talep modelini yeniden
 eğitir ve demo verisini GitHub'a göndererek Streamlit Cloud'daki yayını günceller.
 
-Windows Görev Zamanlayıcı bu dosyayı her gün 06:00'da ve oturum açıldığında pencere açmadan çalıştırır
+Windows Görev Zamanlayıcı bu dosyayı her gün 06:00'da, oturum açıldığında ve kilit açıldığında (uykudan
+uyanınca) pencere açmadan çalıştırır
 (pythonw gunluk_guncelleme.py --log). Aynı gün birden fazla tetiklenirse Amazon'a gereksiz istek gitmemesi için
 başarılı bir taramadan sonra ya da MAKS_GUNLUK_DENEME denemeden sonra atlanır.
 Çıktılar logs/gunluk_guncelleme.log dosyasına eklenir.
