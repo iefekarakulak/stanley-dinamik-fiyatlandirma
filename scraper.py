@@ -108,6 +108,13 @@ def kart_fiyati(kart):
     except Exception:
         return None
 
+def _urun_kartlarini_bekle(driver, sure):
+    try:
+        return WebDriverWait(driver, sure).until(
+            EC.presence_of_all_elements_located((By.CSS_SELECTOR, "div[data-component-type='s-search-result']")))
+    except TimeoutException:
+        return []
+
 def genis_tarama(arama_terimi, sayfa_sayisi=3, sayfalar_arasi_bekleme=30, marka_filtresi=None):
     """Arama sonuçlarındaki tüm ürünleri sayfa sayfa döndürür; hacim başlıktan ayıklanır.
     Engel çıkarsa {"engellendi": True, "urunler": [...]} döner (o ana kadar toplananlar kaybolmasın diye)."""
@@ -145,12 +152,18 @@ def genis_tarama(arama_terimi, sayfa_sayisi=3, sayfalar_arasi_bekleme=30, marka_
                 print(f"Amazon erişimi engelledi (sayfa başlığı: {driver.title})")
                 return {"engellendi": True, "urunler": urunler}
 
-            try:
-                kartlar = WebDriverWait(driver, 10).until(
-                    EC.presence_of_all_elements_located((By.CSS_SELECTOR, "div[data-component-type='s-search-result']"))
-                )
-            except Exception:
-                print(f"  Sayfa {sayfa}'da ürün bulunamadı, arama sonuçlarının sonuna gelindi.")
+            kartlar = _urun_kartlarini_bekle(driver, sure=20)
+            if not kartlar and sayfa > 1:
+                # 27.10'da 2. sayfa geç yüklendi ve "sonuçların sonu" sanılıp tarama 58 ilanda bitti:
+                # sonuç sonu demeden önce sayfa bir kez daha yüklenir
+                time.sleep(random.uniform(10, 15))
+                try:
+                    driver.refresh()
+                except TimeoutException:
+                    driver.execute_script("window.stop();")
+                kartlar = _urun_kartlarini_bekle(driver, sure=30)
+            if not kartlar:
+                print(f"  Sayfa {sayfa}'da ürün bulunamadı, tarama bitti (sayfa başlığı: {driver.title}).")
                 break
 
             sayfadaki = 0
