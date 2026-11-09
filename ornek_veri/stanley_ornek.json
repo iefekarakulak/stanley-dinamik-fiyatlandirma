@@ -1,37 +1,37 @@
 {
  "aciklama": "Demo modu için Amazon TR'den toplanmış gerçek Stanley ilanlarının anlık görüntüsü.",
- "tarama_tarihi": "2026-11-08",
+ "tarama_tarihi": "2026-11-09",
  "ilanlar": [
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B000T21JFE",
    "baslik": "stanley classic legendary vakumlu çelik termos, 1 l",
    "fiyat": 2082.5,
    "hacim_litre": 1.0,
    "aylik_satis_rozeti": "Geçen ay 100 adetten fazla satın alındı",
    "aylik_satis_tahmini": 100,
-   "yorum_sayisi": 18506,
+   "yorum_sayisi": 18510,
    "puan": 4.4,
    "onceki_fiyat": null,
    "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B07P8GBDQL",
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B07P8G9LT6",
    "baslik": "stanley classic legendary vakumlu çelik termos, 0.47 l",
-   "fiyat": 1980.0,
+   "fiyat": 2079.0,
    "hacim_litre": 0.47,
    "aylik_satis_rozeti": null,
    "aylik_satis_tahmini": null,
-   "yorum_sayisi": 2549,
+   "yorum_sayisi": 2550,
    "puan": 4.4,
    "onceki_fiyat": null,
    "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B07P9KSRLQ",
    "baslik": "stanley classic legendary vakumlu çelik yemek termosu, 0.7 l",
    "fiyat": 1799.0,
@@ -45,52 +45,38 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B07PBN67YJ",
    "baslik": "stanley classic legendary 2qt vakumlu termos 1.9 litre - yeşil (hammertone green) | paslanmaz çelik",
-   "fiyat": 2639.43,
+   "fiyat": 2590.0,
    "hacim_litre": 1.9,
    "aylik_satis_rozeti": "Geçen ay 1 B adetten fazla satın alındı",
    "aylik_satis_tahmini": 1000,
-   "yorum_sayisi": 7436,
+   "yorum_sayisi": 7439,
    "puan": 4.4,
    "onceki_fiyat": null,
    "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B07PVF47BB",
-   "baslik": "stanley classic flask cep matarasi 0.23 litre - yeşil (hammertone green) | paslanmaz çelik",
-   "fiyat": 1317.5,
-   "hacim_litre": 0.23,
-   "aylik_satis_rozeti": "Geçen ay 500 adetten fazla satın alındı",
-   "aylik_satis_tahmini": 500,
-   "yorum_sayisi": 1905,
-   "puan": 4.5,
-   "onceki_fiyat": null,
-   "stok_adedi": null,
-   "sponsorlu": 0
-  },
-  {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B07PWC7X9P",
    "baslik": "stanley classic flask cep matarasi 0.23 litre - mat siyah | paslanmaz çelik",
    "fiyat": 1189.15,
    "hacim_litre": 0.23,
    "aylik_satis_rozeti": "Geçen ay 300 adetten fazla satın alındı",
    "aylik_satis_tahmini": 300,
-   "yorum_sayisi": 1237,
+   "yorum_sayisi": 1238,
    "puan": 4.4,
    "onceki_fiyat": null,
    "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B07PXJ7SJ1",
    "baslik": "stanley adventure nesting shot glasses set shot bardak seti 4 x 59 ml - siyah | paslanmaz çelik",
-   "fiyat": 1060.53,
+   "fiyat": 1149.0,
    "hacim_litre": 0.059,
    "aylik_satis_rozeti": null,
    "aylik_satis_tahmini": null,
@@ -101,7 +87,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B07PYNBYMY",
    "baslik": "stanley vacuum stein termos bardak 0.7 litre - yeşil (hammertone green) | paslanmaz çelik",
    "fiyat": 1421.0,
@@ -115,7 +101,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B085V52MVK",
    "baslik": "stanley adventure taşinabilir soğutucu çanta, 15.1 lt",
    "fiyat": 9274.14,
@@ -129,7 +115,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B09717VLQF",
    "baslik": "stanley adventure cook set pişirme ve yemek seti 1 litre - paslanmaz çelik | paslanmaz çelik",
    "fiyat": 1889.0,
@@ -143,7 +129,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B09X1SC626",
    "baslik": "stanley quick-flip 24oz termos 0.7 litre - yeşil (shale) | paslanmaz çelik",
    "fiyat": 3999.0,
@@ -157,7 +143,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B09ZKP3ZBC",
    "baslik": "stanley klasik neverleak termos, 0.47 l, mavi",
    "fiyat": 3599.0,
@@ -171,21 +157,21 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0BKLPF6FX",
    "baslik": "stanley classic legendary vakumlu çelik termos, 2.3 l",
-   "fiyat": 2975.0,
+   "fiyat": 2629.0,
    "hacim_litre": 2.3,
    "aylik_satis_rozeti": "Geçen ay 3 B adetten fazla satın alındı",
    "aylik_satis_tahmini": 3000,
-   "yorum_sayisi": 5517,
+   "yorum_sayisi": 5525,
    "puan": 4.5,
    "onceki_fiyat": null,
    "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0BKLQCWDZ",
    "baslik": "stanley klasik trigger-action termos bardak, 0,35 lt",
    "fiyat": 4185.09,
@@ -199,7 +185,21 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0BKLRT453",
+   "baslik": "stanley classic legendary vakumlu çelik termos, 2.3 l",
+   "fiyat": 3144.15,
+   "hacim_litre": 2.3,
+   "aylik_satis_rozeti": "Geçen ay 100 adetten fazla satın alındı",
+   "aylik_satis_tahmini": 100,
+   "yorum_sayisi": 5525,
+   "puan": 4.5,
+   "onceki_fiyat": null,
+   "stok_adedi": null,
+   "sponsorlu": 0
+  },
+  {
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0C3MXDMPP",
    "baslik": "stanley quencher h2.0 flowstate tumbler 30oz pipetli termos bardak 0.89 litre - coastal teal | paslanmaz çelik",
    "fiyat": 1528.99,
@@ -213,21 +213,7 @@
    "sponsorlu": 1
   },
   {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0C3MXYD5X",
-   "baslik": "stanley quencher pipetli termos bardak, 0.89 l",
-   "fiyat": 1826.65,
-   "hacim_litre": 0.89,
-   "aylik_satis_rozeti": null,
-   "aylik_satis_tahmini": null,
-   "yorum_sayisi": 294,
-   "puan": 4.3,
-   "onceki_fiyat": null,
-   "stok_adedi": 4,
-   "sponsorlu": 0
-  },
-  {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0C8HQP1MJ",
    "baslik": "stanley quencher h2.0 flowstate tumbler 40oz pipetli termos bardak 1.18 litre - parlak mor (dahlia shimmer) | paslanmaz çelik",
    "fiyat": 1973.55,
@@ -241,7 +227,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0CL4D99TK",
    "baslik": "stanley the artisan paslanmaz çelik termos, 1.04 lt",
    "fiyat": 3873.05,
@@ -255,133 +241,105 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0CNTTHGBJ",
    "baslik": "stanley klasik trigger-action termos bardak, 0.35 lt",
    "fiyat": 1596.0,
    "hacim_litre": 0.35,
    "aylik_satis_rozeti": null,
    "aylik_satis_tahmini": null,
-   "yorum_sayisi": 4591,
+   "yorum_sayisi": 4593,
    "puan": 4.5,
    "onceki_fiyat": 1998.99,
    "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0CNTV815Y",
-   "baslik": "stanley quencher h2.0 flowstate tumbler 40oz pipetli termos bardak 1.18 litre - krem | paslanmaz çelik",
-   "fiyat": 1395.52,
-   "hacim_litre": 1.18,
-   "aylik_satis_rozeti": "Geçen ay 200 adetten fazla satın alındı",
-   "aylik_satis_tahmini": 200,
-   "yorum_sayisi": 4439,
-   "puan": 4.2,
-   "onceki_fiyat": null,
-   "stok_adedi": 1,
-   "sponsorlu": 1
-  },
-  {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0CNTVC43F",
-   "baslik": "stanley aerolight iceflow fast flow soğuk su termosu 0.60 litre - beyaz (frost) | paslanmaz çelik",
-   "fiyat": 1699.0,
-   "hacim_litre": 0.6,
-   "aylik_satis_rozeti": null,
-   "aylik_satis_tahmini": null,
-   "yorum_sayisi": 222,
-   "puan": 4.4,
-   "onceki_fiyat": 1999.0,
-   "stok_adedi": null,
-   "sponsorlu": 0
-  },
-  {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0CNTVCWLL",
    "baslik": "stanley classic legendary yemek termosu, 0.4 l",
    "fiyat": 1672.0,
    "hacim_litre": 0.4,
-   "aylik_satis_rozeti": "Geçen ay 900 adetten fazla satın alındı",
-   "aylik_satis_tahmini": 900,
-   "yorum_sayisi": 4101,
+   "aylik_satis_rozeti": "Geçen ay 1 B adetten fazla satın alındı",
+   "aylik_satis_tahmini": 1000,
+   "yorum_sayisi": 4104,
    "puan": 4.6,
    "onceki_fiyat": null,
    "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0CNTVQNNS",
    "baslik": "stanley all day slim 20oz soğuk su termosu 0.60 litre - pembe kuvars (rose quartz) | paslanmaz çelik",
    "fiyat": 1343.99,
    "hacim_litre": 0.59,
    "aylik_satis_rozeti": "Geçen ay 100 adetten fazla satın alındı",
    "aylik_satis_tahmini": 100,
-   "yorum_sayisi": 991,
+   "yorum_sayisi": 993,
    "puan": 4.2,
    "onceki_fiyat": 1493.45,
    "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0CNTWPSMD",
    "baslik": "stanley classic legendary camp mug termos bardak 0.35 litre - pembe kuvars (rose quartz) | paslanmaz çelik",
    "fiyat": 1486.65,
    "hacim_litre": 0.35,
    "aylik_satis_rozeti": "Geçen ay 100 adetten fazla satın alındı",
    "aylik_satis_tahmini": 100,
-   "yorum_sayisi": 620,
+   "yorum_sayisi": 622,
    "puan": 4.4,
    "onceki_fiyat": null,
    "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0CNTWY3VM",
    "baslik": "stanley quencher h2.0 flowstate tumbler 40oz pipetli termos bardak 1.18 litre - pembe kuvars (rose quartz) | paslanmaz çelik",
    "fiyat": 1479.99,
    "hacim_litre": 1.18,
    "aylik_satis_rozeti": "Geçen ay 1 B adetten fazla satın alındı",
    "aylik_satis_tahmini": 1000,
-   "yorum_sayisi": 4698,
+   "yorum_sayisi": 4702,
    "puan": 4.3,
    "onceki_fiyat": 1602.0,
-   "stok_adedi": null,
+   "stok_adedi": 1,
    "sponsorlu": 1
   },
   {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0CNTX1NHS",
-   "baslik": "stanley aerolight iceflow fast flow soğuk su termosu 0.60 litre - siyah | paslanmaz çelik",
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0CNTXNSRX",
+   "baslik": "stanley iceflow flip straw tumbler pipetli termos bardak, 0.89 l",
    "fiyat": 1699.0,
-   "hacim_litre": 0.6,
-   "aylik_satis_rozeti": null,
-   "aylik_satis_tahmini": null,
-   "yorum_sayisi": 498,
-   "puan": 4.5,
-   "onceki_fiyat": null,
+   "hacim_litre": 0.89,
+   "aylik_satis_rozeti": "Geçen ay 300 adetten fazla satın alındı",
+   "aylik_satis_tahmini": 300,
+   "yorum_sayisi": 4517,
+   "puan": 4.4,
+   "onceki_fiyat": 2379.15,
    "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0CV62XSDZ",
-   "baslik": "stanley quencher h2.0 flowstate paslanmaz çelik vakum yalitimli bardak kapakli ve pipetli su, buzlu çay veya kahve, smoothie ve daha fazlasi için, neon turuncu, 40 oz",
-   "fiyat": 2159.1,
-   "hacim_litre": 1.18,
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0D9G3NTSN",
+   "baslik": "stanley stay-hot stacking cup termos bardak 0.29 litre - siyah 2.0 | paslanmaz çelik",
+   "fiyat": 1033.33,
+   "hacim_litre": 0.29,
    "aylik_satis_rozeti": null,
    "aylik_satis_tahmini": null,
-   "yorum_sayisi": 34990,
-   "puan": 4.6,
-   "onceki_fiyat": 2399.0,
-   "stok_adedi": 2,
+   "yorum_sayisi": 4,
+   "puan": 5.0,
+   "onceki_fiyat": 1439.0,
+   "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0D9G469GD",
    "baslik": "stanley stay-hot stacking cup termos bardak 0.29 litre - krem | paslanmaz çelik",
    "fiyat": 1219.9,
@@ -395,63 +353,63 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0DFWT82GM",
    "baslik": "stanley quencher pipetli termos bardak, 1.18 l",
-   "fiyat": 2126.0,
+   "fiyat": 2111.12,
    "hacim_litre": 1.18,
    "aylik_satis_rozeti": "Geçen ay 700 adetten fazla satın alındı",
    "aylik_satis_tahmini": 700,
-   "yorum_sayisi": 7156,
+   "yorum_sayisi": 7168,
    "puan": 4.2,
    "onceki_fiyat": null,
    "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0DFWVN7KM",
    "baslik": "stanley quencher pipetli termos bardak, 1.18 l",
    "fiyat": 1402.5,
    "hacim_litre": 1.18,
    "aylik_satis_rozeti": "Geçen ay 300 adetten fazla satın alındı",
    "aylik_satis_tahmini": 300,
-   "yorum_sayisi": 7156,
+   "yorum_sayisi": 7168,
    "puan": 4.2,
    "onceki_fiyat": 1799.0,
    "stok_adedi": null,
    "sponsorlu": 1
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0DKFNVVB5",
    "baslik": "stanley classic legendary 2qt vakumlu termos 1.9 litre - mavi (hammertone lake) | paslanmaz çelik",
    "fiyat": 2458.9,
    "hacim_litre": 1.9,
    "aylik_satis_rozeti": "Geçen ay 50 adetten fazla satın alındı",
    "aylik_satis_tahmini": 50,
-   "yorum_sayisi": 477,
+   "yorum_sayisi": 480,
    "puan": 4.3,
+   "onceki_fiyat": null,
+   "stok_adedi": 4,
+   "sponsorlu": 0
+  },
+  {
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0DQLQ41SD",
+   "baslik": "stanley quencher h2.0 flowstate tumbler 64oz pipetli termos 1.9 litre - pembe kuvars (rose quartz) | paslanmaz çelik",
+   "fiyat": 2879.28,
+   "hacim_litre": 1.89,
+   "aylik_satis_rozeti": null,
+   "aylik_satis_tahmini": null,
+   "yorum_sayisi": 15,
+   "puan": 4.0,
    "onceki_fiyat": null,
    "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0DPXPS2F4",
-   "baslik": "stanley quencher pipetli termos bardak, 1.18 l",
-   "fiyat": 1649.99,
-   "hacim_litre": 1.18,
-   "aylik_satis_rozeti": "Geçen ay 100 adetten fazla satın alındı",
-   "aylik_satis_tahmini": 100,
-   "yorum_sayisi": 7156,
-   "puan": 4.2,
-   "onceki_fiyat": 1833.45,
-   "stok_adedi": null,
-   "sponsorlu": 0
-  },
-  {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0DTN1Q8Z4",
    "baslik": "stanley iceflow hizli akiş şişesi, 30 oz, siyah 2.0",
    "fiyat": 2266.11,
@@ -465,21 +423,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0DXL2QQ3S",
-   "baslik": "stanley iceflow™ aerolight™ flip straw 2.0 24oz pipetli termos su şişesi 0.7 litre - beyaz (frost) | paslanmaz çelik",
-   "fiyat": 2100.58,
-   "hacim_litre": 0.71,
-   "aylik_satis_rozeti": "Geçen ay 100 adetten fazla satın alındı",
-   "aylik_satis_tahmini": 100,
-   "yorum_sayisi": 577,
-   "puan": 4.5,
-   "onceki_fiyat": null,
-   "stok_adedi": null,
-   "sponsorlu": 0
-  },
-  {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0DXL4XXW9",
    "baslik": "stanley iceflow™ aerolight™ flip straw 2.0 36oz pipetli termos su şişesi 1.06 litre - pembe kuvars (rose quartz) | paslanmaz çelik",
    "fiyat": 1999.0,
@@ -493,7 +437,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0F32NJWW4",
    "baslik": "stanley cafe to-go travel mug 8oz termos bardak 0.23 litre - pembe kuvars (rose quartz) | paslanmaz çelik",
    "fiyat": 1099.99,
@@ -507,7 +451,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0F32QM9G6",
    "baslik": "stanley cafe to-go travel mug 12oz termos bardak 0.35 litre - lila | paslanmaz çelik",
    "fiyat": 1140.99,
@@ -521,21 +465,21 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0F32QSJRG",
    "baslik": "stanley cafe to-go travel mug 8oz termos bardak 0.23 litre - yeşil (shale) | paslanmaz çelik",
    "fiyat": 1099.99,
    "hacim_litre": 0.24,
    "aylik_satis_rozeti": "Geçen ay 200 adetten fazla satın alındı",
    "aylik_satis_tahmini": 200,
-   "yorum_sayisi": 78,
+   "yorum_sayisi": 81,
    "puan": 4.6,
    "onceki_fiyat": 1198.99,
    "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0F32SHN9T",
    "baslik": "stanley cafe to-go travel mug 12oz termos bardak 0.35 litre - pembe kuvars (rose quartz) | paslanmaz çelik",
    "fiyat": 1319.12,
@@ -549,35 +493,63 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0F5WYGR6B",
-   "baslik": "stanley fast-flow water jug 7.5 litre - pembe kuvars (rose quartz)",
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0F32SS1D2",
+   "baslik": "stanley cafe to-go travel mug 12oz termos bardak 0.35 litre - yeşil (shale) | paslanmaz çelik",
+   "fiyat": 1699.0,
+   "hacim_litre": 0.36,
+   "aylik_satis_rozeti": null,
+   "aylik_satis_tahmini": null,
+   "yorum_sayisi": 81,
+   "puan": 4.6,
+   "onceki_fiyat": null,
+   "stok_adedi": null,
+   "sponsorlu": 1
+  },
+  {
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0F5WVNVVS",
+   "baslik": "stanley fast-flow water jug jug 7.5 litre - haki (dried pine)",
    "fiyat": 4008.99,
    "hacim_litre": 7.5,
    "aylik_satis_rozeti": null,
    "aylik_satis_tahmini": null,
    "yorum_sayisi": 50,
    "puan": 4.5,
-   "onceki_fiyat": 5328.96,
+   "onceki_fiyat": null,
    "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0F5WYQTDB",
    "baslik": "stanley adventure stacking pint vakumlu soğuk içecek bardaği, pembe, 0.47 litre",
    "fiyat": 868.09,
    "hacim_litre": 0.47,
    "aylik_satis_rozeti": "Geçen ay 100 adetten fazla satın alındı",
    "aylik_satis_tahmini": 100,
-   "yorum_sayisi": 1173,
+   "yorum_sayisi": 1174,
    "puan": 4.6,
    "onceki_fiyat": 921.99,
    "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0F5WZJVZY",
+   "baslik": "stanley quick-flip 16oz termos 0.47 litre - siyah | paslanmaz çelik",
+   "fiyat": 2055.0,
+   "hacim_litre": 0.47,
+   "aylik_satis_rozeti": null,
+   "aylik_satis_tahmini": null,
+   "yorum_sayisi": 4210,
+   "puan": 4.4,
+   "onceki_fiyat": 2174.71,
+   "stok_adedi": null,
+   "sponsorlu": 0
+  },
+  {
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0F5WZKGN7",
    "baslik": "stanley the stay hot camp mug, 0.35 l, kül",
    "fiyat": 1543.76,
@@ -591,13 +563,13 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0F5WZN97R",
    "baslik": "stanley the aerolight transit mug 20oz termos 0.60 litre - gri (ash) | paslanmaz çelik",
-   "fiyat": 1783.15,
+   "fiyat": 1699.15,
    "hacim_litre": 0.59,
-   "aylik_satis_rozeti": "Geçen ay 300 adetten fazla satın alındı",
-   "aylik_satis_tahmini": 300,
+   "aylik_satis_rozeti": "Geçen ay 200 adetten fazla satın alındı",
+   "aylik_satis_tahmini": 200,
    "yorum_sayisi": 123,
    "puan": 4.5,
    "onceki_fiyat": null,
@@ -605,10 +577,10 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0F5X1G8GG",
    "baslik": "stanley iceflow flip straw tumbler pipetli termos matara, 1.9 l",
-   "fiyat": 3049.0,
+   "fiyat": 3099.0,
    "hacim_litre": 1.9,
    "aylik_satis_rozeti": null,
    "aylik_satis_tahmini": null,
@@ -619,63 +591,35 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0F5X1JCM5",
-   "baslik": "stanley aerolight transit termos bardak, 0.35 lt",
-   "fiyat": 1499.0,
-   "hacim_litre": 0.35,
-   "aylik_satis_rozeti": null,
-   "aylik_satis_tahmini": null,
-   "yorum_sayisi": 19,
-   "puan": 4.7,
-   "onceki_fiyat": null,
-   "stok_adedi": 1,
-   "sponsorlu": 0
-  },
-  {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0F5X1PLH5",
-   "baslik": "stanley quick-flip 36oz termos 1.06 litre - pembe kuvars (rose quartz) | paslanmaz çelik",
-   "fiyat": 2954.57,
-   "hacim_litre": 1.07,
-   "aylik_satis_rozeti": null,
-   "aylik_satis_tahmini": null,
-   "yorum_sayisi": 120,
-   "puan": 4.1,
-   "onceki_fiyat": null,
-   "stok_adedi": null,
-   "sponsorlu": 0
-  },
-  {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0F5X2KHW8",
-   "baslik": "stanley iceflow aerolight flip straw 2.0 pipetli su şişesi, mercan (hot coral), 1.06 litre",
-   "fiyat": 2865.68,
-   "hacim_litre": 1.06,
-   "aylik_satis_rozeti": null,
-   "aylik_satis_tahmini": null,
-   "yorum_sayisi": 333,
-   "puan": 4.7,
-   "onceki_fiyat": 3059.24,
-   "stok_adedi": 11,
-   "sponsorlu": 0
-  },
-  {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0F7RX7HVN",
    "baslik": "stanley the aerolight transit mug 16oz termos 0.47 litre - gri (ash) | paslanmaz çelik",
    "fiyat": 1614.15,
    "hacim_litre": 0.47,
-   "aylik_satis_rozeti": "Geçen ay 200 adetten fazla satın alındı",
-   "aylik_satis_tahmini": 200,
-   "yorum_sayisi": 317,
+   "aylik_satis_rozeti": "Geçen ay 300 adetten fazla satın alındı",
+   "aylik_satis_tahmini": 300,
+   "yorum_sayisi": 319,
    "puan": 4.3,
    "onceki_fiyat": null,
    "stok_adedi": null,
    "sponsorlu": 1
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0F7RXBNRG",
+   "baslik": "stanley the aerolight transit mug16oz termos 0.47 litre - lacivert (twilight) | paslanmaz çelik",
+   "fiyat": 2789.0,
+   "hacim_litre": 0.47,
+   "aylik_satis_rozeti": null,
+   "aylik_satis_tahmini": null,
+   "yorum_sayisi": 32,
+   "puan": 4.2,
+   "onceki_fiyat": null,
+   "stok_adedi": null,
+   "sponsorlu": 0
+  },
+  {
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0F8BZVDMV",
    "baslik": "stanley the aerolight transit termos 0,35 l gece mavisi/kiremit",
    "fiyat": 1729.0,
@@ -685,53 +629,67 @@
    "yorum_sayisi": 27,
    "puan": 4.6,
    "onceki_fiyat": null,
-   "stok_adedi": 20,
+   "stok_adedi": 18,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0F8C119TS",
    "baslik": "stanley the aerolight transit mug 12oz termos 0.35 litre - parlak krem | paslanmaz çelik",
-   "fiyat": 1699.0,
+   "fiyat": 1749.0,
    "hacim_litre": 0.36,
    "aylik_satis_rozeti": "Geçen ay 100 adetten fazla satın alındı",
    "aylik_satis_tahmini": 100,
-   "yorum_sayisi": 2304,
+   "yorum_sayisi": 2305,
    "puan": 4.3,
    "onceki_fiyat": null,
-   "stok_adedi": null,
+   "stok_adedi": 3,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0F9NWPPWB",
+   "baslik": "stanley iceflow flip straw tumbler pipetli termos bardak, 0.60 litre, gri (ash)",
+   "fiyat": 2248.99,
+   "hacim_litre": 0.6,
+   "aylik_satis_rozeti": null,
+   "aylik_satis_tahmini": null,
+   "yorum_sayisi": 95,
+   "puan": 4.4,
+   "onceki_fiyat": null,
+   "stok_adedi": 12,
+   "sponsorlu": 0
+  },
+  {
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FB8TK8JK",
    "baslik": "stanley iceflow flip straw tumbler pipetli termos bardak, 0.89 l",
-   "fiyat": 1540.0,
+   "fiyat": 1873.57,
    "hacim_litre": 0.89,
    "aylik_satis_rozeti": "Geçen ay 2 B adetten fazla satın alındı",
    "aylik_satis_tahmini": 2000,
-   "yorum_sayisi": 4512,
+   "yorum_sayisi": 4517,
    "puan": 4.4,
    "onceki_fiyat": null,
    "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FBMG1QT2",
    "baslik": "stanley iceflow flip straw tumbler pipetli termos bardak, 0.89 l",
-   "fiyat": 2399.0,
+   "fiyat": 2295.0,
    "hacim_litre": 0.89,
    "aylik_satis_rozeti": "Geçen ay 300 adetten fazla satın alındı",
    "aylik_satis_tahmini": 300,
-   "yorum_sayisi": 1593,
+   "yorum_sayisi": 1595,
    "puan": 4.4,
    "onceki_fiyat": null,
-   "stok_adedi": null,
+   "stok_adedi": 5,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FBMK5K2K",
    "baslik": "stanley iceflow flip straw tumbler pipetli termos bardak, kiraz çiçeği (cherry blossom), 0.60 litre",
    "fiyat": 2944.0,
@@ -745,21 +703,35 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FBWS67J1",
    "baslik": "stanley the aerolight transit mug 12oz termos 0.35 litre - pembe kuvars 2.0 (rose quartz) | paslanmaz çelik",
    "fiyat": 1249.0,
    "hacim_litre": 0.36,
-   "aylik_satis_rozeti": "Geçen ay 700 adetten fazla satın alındı",
-   "aylik_satis_tahmini": 700,
-   "yorum_sayisi": 321,
-   "puan": 4.1,
+   "aylik_satis_rozeti": "Geçen ay 800 adetten fazla satın alındı",
+   "aylik_satis_tahmini": 800,
+   "yorum_sayisi": 323,
+   "puan": 4.2,
    "onceki_fiyat": 1299.0,
    "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0FGDK7K1T",
+   "baslik": "stanley iceflow aerolight flip straw 2.0 pipetli su şişesi, haki (dried pine), 1.06 litre",
+   "fiyat": 2350.65,
+   "hacim_litre": 1.06,
+   "aylik_satis_rozeti": null,
+   "aylik_satis_tahmini": null,
+   "yorum_sayisi": 334,
+   "puan": 4.7,
+   "onceki_fiyat": null,
+   "stok_adedi": 7,
+   "sponsorlu": 0
+  },
+  {
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FGJW5R8B",
    "baslik": "stanley cafe to-go travel mug 8oz termos bardak 0.23 litre - siyah | paslanmaz çelik",
    "fiyat": 1401.65,
@@ -773,7 +745,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FGJWK9L6",
    "baslik": "stanley cafe to-go travel mug 12oz termos bardak 0.35 litre - siyah 2.0 | paslanmaz çelik",
    "fiyat": 1140.99,
@@ -787,7 +759,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FKH16KCV",
    "baslik": "stanley cafe to-go travel mug termos bardak, lacivert (twilight), 0.23 litre",
    "fiyat": 1099.99,
@@ -801,7 +773,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FL28VYCC",
    "baslik": "stanley adventure to-go termos 0.75 litre - beyaz (frost) | paslanmaz çelik",
    "fiyat": 1755.99,
@@ -815,7 +787,21 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0FLDK4TKF",
+   "baslik": "stanley çalkalayici şişesini etkinleştirin 0.59l (tebeşir)",
+   "fiyat": 2949.0,
+   "hacim_litre": 0.59,
+   "aylik_satis_rozeti": null,
+   "aylik_satis_tahmini": null,
+   "yorum_sayisi": 33,
+   "puan": 4.3,
+   "onceki_fiyat": null,
+   "stok_adedi": 20,
+   "sponsorlu": 0
+  },
+  {
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FLDPB191",
    "baslik": "stanley the iceflow™ twist & flip16oz termos su şişesi 0.47 litre - mavi (azure) | paslanmaz çelik",
    "fiyat": 1718.0,
@@ -829,7 +815,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FLDPDZJP",
    "baslik": "stanley the iceflow™ twist & flip16oz termos su şişesi 0.47 litre - beyaz (frost) | paslanmaz çelik",
    "fiyat": 1559.4,
@@ -843,7 +829,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FLDX2PVR",
    "baslik": "stanley aerolight iceflow fast flow içecek şişesi, 0.7 l",
    "fiyat": 2086.18,
@@ -857,21 +843,21 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FLF2VKL2",
    "baslik": "stanley classic legendary yalitimli su şişesi, 1.4 l",
    "fiyat": 1899.0,
    "hacim_litre": 1.4,
-   "aylik_satis_rozeti": "Geçen ay 400 adetten fazla satın alındı",
-   "aylik_satis_tahmini": 400,
-   "yorum_sayisi": 284,
+   "aylik_satis_rozeti": "Geçen ay 500 adetten fazla satın alındı",
+   "aylik_satis_tahmini": 500,
+   "yorum_sayisi": 286,
    "puan": 4.3,
    "onceki_fiyat": 2369.99,
    "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FLF47SJS",
    "baslik": "stanley adventure to-go food jar 18oz yemek termosu 0.53 litre - yeşil (hammertone green) | paslanmaz çelik",
    "fiyat": 1859.99,
@@ -885,27 +871,27 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FLF4CR8H",
    "baslik": "stanley wellspring termos su şişesi 0.7 litre - pembe kuvars (rose quartz) | paslanmaz çelik",
    "fiyat": 1715.4,
    "hacim_litre": 0.7,
    "aylik_satis_rozeti": "Geçen ay 100 adetten fazla satın alındı",
    "aylik_satis_tahmini": 100,
-   "yorum_sayisi": 309,
+   "yorum_sayisi": 310,
    "puan": 4.7,
    "onceki_fiyat": 1999.0,
    "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FLF6YY5R",
    "baslik": "stanley adventure to-go termos 0.75 litre - yeşil (hammertone green) | paslanmaz çelik",
    "fiyat": 1755.99,
    "hacim_litre": 0.75,
-   "aylik_satis_rozeti": "Geçen ay 50 adetten fazla satın alındı",
-   "aylik_satis_tahmini": 50,
+   "aylik_satis_rozeti": "Geçen ay 100 adetten fazla satın alındı",
+   "aylik_satis_tahmini": 100,
    "yorum_sayisi": 22,
    "puan": 4.1,
    "onceki_fiyat": 1942.99,
@@ -913,7 +899,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FLF8B3GG",
    "baslik": "stanley adventure to-go 1 l termos 1 litre - yeşil (hammertone green) | paslanmaz çelik",
    "fiyat": 1999.0,
@@ -927,21 +913,35 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0FLF8Z3VR",
+   "baslik": "stanley adventure to-go food jar 12oz yemek termosu 0.35 litre - yeşil (hammertone green) | paslanmaz çelik",
+   "fiyat": 1829.0,
+   "hacim_litre": 0.36,
+   "aylik_satis_rozeti": null,
+   "aylik_satis_tahmini": null,
+   "yorum_sayisi": 11,
+   "puan": 4.5,
+   "onceki_fiyat": null,
+   "stok_adedi": null,
+   "sponsorlu": 0
+  },
+  {
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FP4XN8MN",
    "baslik": "stanley iceflow flip straw tumbler pipetli termos bardak, 0.89 l",
    "fiyat": 1584.0,
    "hacim_litre": 0.89,
    "aylik_satis_rozeti": "Geçen ay 3 B adetten fazla satın alındı",
    "aylik_satis_tahmini": 3000,
-   "yorum_sayisi": 4512,
+   "yorum_sayisi": 4517,
    "puan": 4.4,
    "onceki_fiyat": null,
    "stok_adedi": null,
    "sponsorlu": 1
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FPGQSVNP",
    "baslik": "stanley quencher h2.0 flowstate tumbler 40oz pipetli termos bardak 1.18 litre - parlak lila (periwinkle shimmer) | paslanmaz çelik",
    "fiyat": 1699.0,
@@ -955,7 +955,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FPGS4TZL",
    "baslik": "stanley quencher pipetli termos bardak, 0.89 l",
    "fiyat": 1528.99,
@@ -969,21 +969,21 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FQJZ76XV",
    "baslik": "stanley iceflow™ aerolight™ flip straw 2.0 16oz pipetli termos su şişesi 0.47 litre - pembe kuvars (rose quartz) | paslanmaz çelik",
    "fiyat": 1449.0,
    "hacim_litre": 0.47,
    "aylik_satis_rozeti": "Geçen ay 200 adetten fazla satın alındı",
    "aylik_satis_tahmini": 200,
-   "yorum_sayisi": 69,
+   "yorum_sayisi": 70,
    "puan": 4.4,
    "onceki_fiyat": 1789.0,
    "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FQK23PWJ",
    "baslik": "stanley iceflow™ aerolight™ flip straw 2.0 16oz pipetli termos su şişesi 0.47 litre - beyaz (frost) | paslanmaz çelik",
    "fiyat": 1449.0,
@@ -997,7 +997,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FQK4FF3M",
    "baslik": "stanley iceflow™ aerolight™ flip straw 2.0 16oz pipetli termos su şişesi 0.47 litre - violet blossom | paslanmaz çelik",
    "fiyat": 1699.0,
@@ -1011,7 +1011,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FQP7BCYY",
    "baslik": "stanley the iceflow twist flip termos 0.47 lt | turuncu",
    "fiyat": 1878.84,
@@ -1025,10 +1025,10 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FQPBD85T",
    "baslik": "stanley ice flow bottle flip straw termos, 0.70 l, alacakaranlik",
-   "fiyat": 2164.26,
+   "fiyat": 2141.95,
    "hacim_litre": 0.7,
    "aylik_satis_rozeti": null,
    "aylik_satis_tahmini": null,
@@ -1039,7 +1039,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FQPBG7N3",
    "baslik": "stanley iceflow™ aerolight™ flip straw 2.0 24oz pipetli termos su şişesi 0.7 litre - indigo gloss | paslanmaz çelik",
    "fiyat": 2141.95,
@@ -1049,14 +1049,28 @@
    "yorum_sayisi": 23,
    "puan": 4.9,
    "onceki_fiyat": 2789.0,
-   "stok_adedi": 6,
+   "stok_adedi": 4,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0FQPJKDTD",
+   "baslik": "stanley yetişkin klasik paslanmaz çelik cep matarasi 0,23 lt",
+   "fiyat": 1118.99,
+   "hacim_litre": 0.23,
+   "aylik_satis_rozeti": null,
+   "aylik_satis_tahmini": null,
+   "yorum_sayisi": 280,
+   "puan": 4.6,
+   "onceki_fiyat": 1499.0,
+   "stok_adedi": null,
+   "sponsorlu": 0
+  },
+  {
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FQPRRW2N",
    "baslik": "stanley the aerolight transit mug 16oz termos 0.47 litre - goldenrod coral | paslanmaz çelik",
-   "fiyat": 1870.0,
+   "fiyat": 1974.72,
    "hacim_litre": 0.47,
    "aylik_satis_rozeti": "Geçen ay 200 adetten fazla satın alındı",
    "aylik_satis_tahmini": 200,
@@ -1067,21 +1081,21 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FQPS56QK",
    "baslik": "stanley the aerolight transit mug 16oz termos 0.47 litre - violet blossom | paslanmaz çelik",
    "fiyat": 1699.0,
    "hacim_litre": 0.47,
-   "aylik_satis_rozeti": "Geçen ay 200 adetten fazla satın alındı",
-   "aylik_satis_tahmini": 200,
+   "aylik_satis_rozeti": "Geçen ay 100 adetten fazla satın alındı",
+   "aylik_satis_tahmini": 100,
    "yorum_sayisi": 32,
    "puan": 4.4,
    "onceki_fiyat": null,
-   "stok_adedi": 2,
+   "stok_adedi": 1,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FQV6YNJJ",
    "baslik": "stanley the aerolight transit mug 12oz termos 0.35 litre - violet blossom | paslanmaz çelik",
    "fiyat": 1648.99,
@@ -1095,21 +1109,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0FQV7QX15",
-   "baslik": "stanley the aerolight transit mug12oz termos 0.35 litre - indigo | paslanmaz çelik",
-   "fiyat": 1699.0,
-   "hacim_litre": 0.36,
-   "aylik_satis_rozeti": null,
-   "aylik_satis_tahmini": null,
-   "yorum_sayisi": 10,
-   "puan": 4.2,
-   "onceki_fiyat": null,
-   "stok_adedi": 4,
-   "sponsorlu": 0
-  },
-  {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FQV8GM9D",
    "baslik": "stanley classic legendary 1.5qt vakumlu termos 1.4 litre - siyah 2.0 | paslanmaz çelik",
    "fiyat": 1908.68,
@@ -1123,21 +1123,21 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FQV9KH2W",
    "baslik": "stanley classic legendary 1.5qt vakumlu termos 1.4 litre - hammertone lake | paslanmaz çelik",
    "fiyat": 1999.99,
    "hacim_litre": 1.4,
    "aylik_satis_rozeti": "Geçen ay 200 adetten fazla satın alındı",
    "aylik_satis_tahmini": 200,
-   "yorum_sayisi": 1085,
+   "yorum_sayisi": 1088,
    "puan": 4.6,
    "onceki_fiyat": 2422.42,
    "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FQV9SSSP",
    "baslik": "stanley legendary classic bottle termos, 1.40 l, mercan",
    "fiyat": 3299.0,
@@ -1151,21 +1151,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0FQVBN7C1",
-   "baslik": "stanley legendary classic bottle termos, 1.40 l, gül kuvarsi",
-   "fiyat": 2944.0,
-   "hacim_litre": 1.4,
-   "aylik_satis_rozeti": null,
-   "aylik_satis_tahmini": null,
-   "yorum_sayisi": 1,
-   "puan": 5.0,
-   "onceki_fiyat": 3099.0,
-   "stok_adedi": 6,
-   "sponsorlu": 0
-  },
-  {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FQW1DVZX",
    "baslik": "stanley classic legendary 20oz vakumlu termos 0.60 litre - yeşil (hammertone green) | paslanmaz çelik",
    "fiyat": 1673.99,
@@ -1179,7 +1165,21 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0FQW38KR2",
+   "baslik": "stanley legendary classic bottle termos, 0.60 l, menekşe",
+   "fiyat": 2079.0,
+   "hacim_litre": 0.6,
+   "aylik_satis_rozeti": null,
+   "aylik_satis_tahmini": null,
+   "yorum_sayisi": 8,
+   "puan": 3.9,
+   "onceki_fiyat": 2198.0,
+   "stok_adedi": 3,
+   "sponsorlu": 0
+  },
+  {
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FQW9RCNF",
    "baslik": "stanley 10-11882-043 termos, 0.47 l, mavi",
    "fiyat": 1314.17,
@@ -1189,11 +1189,25 @@
    "yorum_sayisi": null,
    "puan": null,
    "onceki_fiyat": 1529.0,
-   "stok_adedi": 3,
+   "stok_adedi": 1,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0FQWHWRHF",
+   "baslik": "stanley the legendary food jar + spork 0.4l / 14oz 10-09382-115 fuşya",
+   "fiyat": 2229.0,
+   "hacim_litre": 0.4,
+   "aylik_satis_rozeti": null,
+   "aylik_satis_tahmini": null,
+   "yorum_sayisi": 1621,
+   "puan": 4.6,
+   "onceki_fiyat": 2355.44,
+   "stok_adedi": null,
+   "sponsorlu": 0
+  },
+  {
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FQWRYH8Q",
    "baslik": "stanley classic legendary 20oz vakumlu termos 0.60 litre - mavi (hammertone lake) | paslanmaz çelik",
    "fiyat": 1673.99,
@@ -1207,21 +1221,35 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FRFVLKGQ",
    "baslik": "stanley wellspring termos su şişesi 0.7 litre - siyah 2.0 | paslanmaz çelik",
    "fiyat": 1759.0,
    "hacim_litre": 0.7,
    "aylik_satis_rozeti": null,
    "aylik_satis_tahmini": null,
-   "yorum_sayisi": 110,
+   "yorum_sayisi": 111,
    "puan": 4.7,
    "onceki_fiyat": 2052.75,
    "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0FRFXT5PB",
+   "baslik": "stanley wellspring termos su şişesi 0.7 litre - goldenrod coral | paslanmaz çelik",
+   "fiyat": 2069.0,
+   "hacim_litre": 0.7,
+   "aylik_satis_rozeti": null,
+   "aylik_satis_tahmini": null,
+   "yorum_sayisi": 13,
+   "puan": 4.8,
+   "onceki_fiyat": null,
+   "stok_adedi": 5,
+   "sponsorlu": 0
+  },
+  {
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FRSGHRN2",
    "baslik": "stanley iceflow™ aerolight™ flip straw 2.0 16oz pipetli termos su şişesi 0.47 litre - indigo gloss | paslanmaz çelik",
    "fiyat": 1699.0,
@@ -1235,7 +1263,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FS7J8TW7",
    "baslik": "stanley the ice flow flp straw termos, 0.89 l, çiy damlasi",
    "fiyat": 3799.0,
@@ -1249,7 +1277,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FS7JJTW7",
    "baslik": "stanley the aerolight transit mug12oz termos 0.35 litre - dew drop | paslanmaz çelik",
    "fiyat": 1779.11,
@@ -1263,7 +1291,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FS7LP4BP",
    "baslik": "stanley quencher h2.0 flowstate tumbler 40oz pipetli termos bardak 1.18 litre - apricot court geo | paslanmaz çelik",
    "fiyat": 2879.28,
@@ -1277,7 +1305,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FSGGF89Q",
    "baslik": "stanley quencher pipetli termos bardak, siyah, 0.89 litre",
    "fiyat": 1551.6,
@@ -1291,7 +1319,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FSS4R7BT",
    "baslik": "stanley the aerolight transit mug12oz termos 0.35 litre - yeşil (shale) | paslanmaz çelik",
    "fiyat": 1954.15,
@@ -1305,35 +1333,35 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0FSSP6424",
-   "baslik": "stanley the aerolight transit mug12oz termos 0.35 litre - lila | paslanmaz çelik",
-   "fiyat": 1368.42,
-   "hacim_litre": 0.36,
-   "aylik_satis_rozeti": "Geçen ay 200 adetten fazla satın alındı",
-   "aylik_satis_tahmini": 200,
-   "yorum_sayisi": 198,
-   "puan": 4.2,
-   "onceki_fiyat": null,
-   "stok_adedi": 19,
-   "sponsorlu": 0
-  },
-  {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0FTZHS5FJ",
-   "baslik": "stanley quencher h2.0 flowstate tumbler 20oz pipetli termos bardak 0.60 litre - ortanca (hydrangea) | paslanmaz çelik",
-   "fiyat": 1815.0,
-   "hacim_litre": 0.59,
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0FSS8YWLX",
+   "baslik": "stanley the quencher h2.o flowstate™ tumbler 0.6l / 20oz termos, black 2.0",
+   "fiyat": 1619.0,
+   "hacim_litre": 0.6,
    "aylik_satis_rozeti": null,
    "aylik_satis_tahmini": null,
    "yorum_sayisi": null,
    "puan": null,
-   "onceki_fiyat": 2049.0,
+   "onceki_fiyat": 1708.99,
+   "stok_adedi": 1,
+   "sponsorlu": 0
+  },
+  {
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0FTM8JQY1",
+   "baslik": "stanley the aerolight transit mug12oz termos 0.35 litre - kömür gri (charcoal) | paslanmaz çelik",
+   "fiyat": 1729.0,
+   "hacim_litre": 0.36,
+   "aylik_satis_rozeti": null,
+   "aylik_satis_tahmini": null,
+   "yorum_sayisi": 16,
+   "puan": 3.9,
+   "onceki_fiyat": null,
    "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FTZHWDHM",
    "baslik": "stanley quencher pipetli termos bardak, mercan (hot coral), 1.18 litre",
    "fiyat": 2081.65,
@@ -1347,35 +1375,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0FTZJ6XM8",
-   "baslik": "stanley iceflow flip straw tumbler pipetli termos bardak, 0.60 litre, haki (dried pine)",
-   "fiyat": 2170.0,
-   "hacim_litre": 0.6,
-   "aylik_satis_rozeti": null,
-   "aylik_satis_tahmini": null,
-   "yorum_sayisi": 95,
-   "puan": 4.4,
-   "onceki_fiyat": null,
-   "stok_adedi": 2,
-   "sponsorlu": 0
-  },
-  {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0FTZK4LL3",
-   "baslik": "stanley quencher pipetli termos bardak, lacivert (twilight), 1.18 litre",
-   "fiyat": 2190.0,
-   "hacim_litre": 1.18,
-   "aylik_satis_rozeti": null,
-   "aylik_satis_tahmini": null,
-   "yorum_sayisi": 3,
-   "puan": 4.0,
-   "onceki_fiyat": null,
-   "stok_adedi": 3,
-   "sponsorlu": 0
-  },
-  {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FX36RT5C",
    "baslik": "stanley iceflow™ aerolight™ flip straw 2.0 36oz pipetli termos su şişesi 1.06 litre - yeşil (shale) | paslanmaz çelik",
    "fiyat": 1999.0,
@@ -1389,7 +1389,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FX37NSYB",
    "baslik": "stanley iceflow™ aerolight™ flip straw 2.0 36oz pipetli termos su şişesi 1.06 litre - lila | paslanmaz çelik",
    "fiyat": 1999.0,
@@ -1403,21 +1403,21 @@
    "sponsorlu": 1
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FX3BG1VM",
    "baslik": "stanley iceflow™ aerolight™ flip straw 2.0 24oz pipetli termos su şişesi 0.7 litre - kömür gri (charcoal) | paslanmaz çelik",
    "fiyat": 1699.0,
    "hacim_litre": 0.71,
    "aylik_satis_rozeti": "Geçen ay 50 adetten fazla satın alındı",
    "aylik_satis_tahmini": 50,
-   "yorum_sayisi": 3,
+   "yorum_sayisi": 2,
    "puan": 1.0,
    "onceki_fiyat": 2199.0,
    "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FXWV2X7L",
    "baslik": "stanley the iceflow flip straw pipetli termos bardak 0,60 lt-10-12044-125",
    "fiyat": 3479.0,
@@ -1431,21 +1431,21 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FZTMLJTR",
    "baslik": "stanley classic legendary camp mug 8oz termos bardak 0.23 litre - yeşil (hammertone green) | paslanmaz çelik",
    "fiyat": 1540.0,
    "hacim_litre": 0.24,
    "aylik_satis_rozeti": "Geçen ay 50 adetten fazla satın alındı",
    "aylik_satis_tahmini": 50,
-   "yorum_sayisi": 28,
+   "yorum_sayisi": 29,
    "puan": 4.2,
    "onceki_fiyat": null,
    "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FZTMM27Q",
    "baslik": "stanley stay-hot stacking cup termos bardak 0.29 litre - beyaz (frost) | paslanmaz çelik",
    "fiyat": 1099.0,
@@ -1459,21 +1459,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0FZVCTLMG",
-   "baslik": "stanley pitcher 64oz sürahi 1.9 litre - beyaz (frost) | paslanmaz çelik",
-   "fiyat": 4399.0,
-   "hacim_litre": 1.89,
-   "aylik_satis_rozeti": null,
-   "aylik_satis_tahmini": null,
-   "yorum_sayisi": 11,
-   "puan": 4.8,
-   "onceki_fiyat": null,
-   "stok_adedi": null,
-   "sponsorlu": 0
-  },
-  {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FZVHKQNC",
    "baslik": "stanley classic legendary camp mug termos bardak 0.35 litre - yeşil (hammertone green) | paslanmaz çelik",
    "fiyat": 1154.45,
@@ -1487,7 +1473,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FZVJK7JK",
    "baslik": "stanley adventure to-go termos 0.75 litre - siyah 2.0 | paslanmaz çelik",
    "fiyat": 1755.99,
@@ -1501,21 +1487,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0FZVK1BRF",
-   "baslik": "stanley classic legendary buddy cup bardak 0.18 litre - yeşil (hammertone green)",
-   "fiyat": 1099.0,
-   "hacim_litre": 0.18,
-   "aylik_satis_rozeti": null,
-   "aylik_satis_tahmini": null,
-   "yorum_sayisi": 32,
-   "puan": 3.6,
-   "onceki_fiyat": null,
-   "stok_adedi": null,
-   "sponsorlu": 0
-  },
-  {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FZVLHWBP",
    "baslik": "stanley the iceflow™ twist & flip24oz termos su şişesi 0.7 litre - lila | paslanmaz çelik",
    "fiyat": 2299.0,
@@ -1529,7 +1501,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FZVLN716",
    "baslik": "stanley iceflow™ aerolight™ flip straw 2.0 16oz pipetli termos su şişesi 0.47 litre - cobalt chartreuse | paslanmaz çelik",
    "fiyat": 1449.0,
@@ -1543,7 +1515,21 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0FZVLXF3M",
+   "baslik": "stanley quencher h2.0 flowstate tumbler 40oz pipetli termos bardak 1.18 litre - sea glass aura | paslanmaz çelik",
+   "fiyat": 1999.99,
+   "hacim_litre": 1.18,
+   "aylik_satis_rozeti": null,
+   "aylik_satis_tahmini": null,
+   "yorum_sayisi": 51,
+   "puan": 4.3,
+   "onceki_fiyat": 2999.0,
+   "stok_adedi": null,
+   "sponsorlu": 0
+  },
+  {
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FZVM9W8N",
    "baslik": "stanley classic legendary buddy cup bardak 0.23 litre - yeşil (hammertone green)",
    "fiyat": 1249.0,
@@ -1557,7 +1543,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FZVMMT7L",
    "baslik": "stanley classic legendary 1.5qt vakumlu termos 1.4 litre - pembe kuvars (rose quartz) | paslanmaz çelik",
    "fiyat": 3419.0,
@@ -1571,21 +1557,21 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FZVMZMB9",
    "baslik": "stanley the iceflow™ twist & flip16oz termos su şişesi 0.47 litre - orange sherbet | paslanmaz çelik",
    "fiyat": 1499.99,
    "hacim_litre": 0.47,
    "aylik_satis_rozeti": null,
    "aylik_satis_tahmini": null,
-   "yorum_sayisi": 2,
-   "puan": 4.5,
+   "yorum_sayisi": 3,
+   "puan": 4.6,
    "onceki_fiyat": 1899.0,
    "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FZVN87KD",
    "baslik": "stanley the transit fliptop mug20oz termos 0.60 litre - siyah 2.0 | paslanmaz çelik",
    "fiyat": 1531.73,
@@ -1599,13 +1585,27 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0FZVNJVHP",
+   "baslik": "stanley iceflow™ aerolight™ flip straw 2.0 24oz pipetli termos su şişesi 0.7 litre - cobalt chartreuse | paslanmaz çelik",
+   "fiyat": 1699.0,
+   "hacim_litre": 0.71,
+   "aylik_satis_rozeti": null,
+   "aylik_satis_tahmini": null,
+   "yorum_sayisi": 10,
+   "puan": 4.1,
+   "onceki_fiyat": 2069.1,
+   "stok_adedi": null,
+   "sponsorlu": 0
+  },
+  {
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FZVNVXKT",
    "baslik": "stanley iceflow™ aerolight™ flip straw 2.0 24oz pipetli termos su şişesi 0.7 litre - lila | paslanmaz çelik",
    "fiyat": 2199.0,
    "hacim_litre": 0.71,
-   "aylik_satis_rozeti": "Geçen ay 100 adetten fazla satın alındı",
-   "aylik_satis_tahmini": 100,
+   "aylik_satis_rozeti": null,
+   "aylik_satis_tahmini": null,
    "yorum_sayisi": 59,
    "puan": 4.5,
    "onceki_fiyat": null,
@@ -1613,7 +1613,21 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0FZVP4XXR",
+   "baslik": "stanley the transit fliptop mug16oz termos 0.47 litre - pembe kuvars (rose quartz) | paslanmaz çelik",
+   "fiyat": 1891.12,
+   "hacim_litre": 0.47,
+   "aylik_satis_rozeti": "Geçen ay 300 adetten fazla satın alındı",
+   "aylik_satis_tahmini": 300,
+   "yorum_sayisi": 38,
+   "puan": 4.6,
+   "onceki_fiyat": null,
+   "stok_adedi": null,
+   "sponsorlu": 0
+  },
+  {
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FZVP6DFB",
    "baslik": "stanley julienne termos çanta 7 litre - krem",
    "fiyat": 5499.0,
@@ -1627,7 +1641,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FZVPDW57",
    "baslik": "stanley the iceflow™ twist & flip16oz termos su şişesi 0.47 litre - cobalt chartreuse | paslanmaz çelik",
    "fiyat": 1899.0,
@@ -1641,63 +1655,49 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0FZVPSZS7",
-   "baslik": "stanley adventure to-go 1 l termos 1 litre - siyah 2.0 | paslanmaz çelik",
-   "fiyat": 1999.0,
-   "hacim_litre": 1.0,
-   "aylik_satis_rozeti": "Geçen ay 50 adetten fazla satın alındı",
-   "aylik_satis_tahmini": 50,
-   "yorum_sayisi": 25,
-   "puan": 3.9,
-   "onceki_fiyat": 2208.99,
-   "stok_adedi": null,
-   "sponsorlu": 0
-  },
-  {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0FZVPYDVC",
-   "baslik": "stanley iceflow™ aerolight™ flip straw 2.0 36oz pipetli termos su şişesi 1.06 litre - orange sherbet | paslanmaz çelik",
-   "fiyat": 1999.0,
-   "hacim_litre": 1.07,
-   "aylik_satis_rozeti": null,
-   "aylik_satis_tahmini": null,
-   "yorum_sayisi": 9,
-   "puan": 3.8,
-   "onceki_fiyat": 2293.99,
-   "stok_adedi": null,
-   "sponsorlu": 0
-  },
-  {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FZVQJ856",
    "baslik": "stanley adventure stacking pint vakumlu soğuk içecek bardaği 0.47 litre - siyah 2.0 | paslanmaz çelik",
    "fiyat": 999.0,
    "hacim_litre": 0.47,
    "aylik_satis_rozeti": "Geçen ay 50 adetten fazla satın alındı",
    "aylik_satis_tahmini": 50,
-   "yorum_sayisi": 35,
+   "yorum_sayisi": 36,
    "puan": 4.6,
    "onceki_fiyat": 1249.0,
    "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FZVR3F3V",
    "baslik": "stanley the transit fliptop mug12oz termos 0.35 litre - siyah 2.0 | paslanmaz çelik",
-   "fiyat": 1479.0,
+   "fiyat": 1459.0,
    "hacim_litre": 0.36,
    "aylik_satis_rozeti": "Geçen ay 1 B adetten fazla satın alındı",
    "aylik_satis_tahmini": 1000,
-   "yorum_sayisi": 39,
+   "yorum_sayisi": 42,
    "puan": 3.8,
    "onceki_fiyat": null,
    "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0FZVR3WNL",
+   "baslik": "stanley stay-hot stacking cup termos bardak 0.29 litre - pembe kuvars (rose quartz) | paslanmaz çelik",
+   "fiyat": 1289.0,
+   "hacim_litre": 0.29,
+   "aylik_satis_rozeti": null,
+   "aylik_satis_tahmini": null,
+   "yorum_sayisi": 9,
+   "puan": 4.4,
+   "onceki_fiyat": null,
+   "stok_adedi": 13,
+   "sponsorlu": 0
+  },
+  {
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FZVRPC6S",
    "baslik": "stanley the iceflow™ twist & flip24oz termos su şişesi 0.7 litre - orange sherbet | paslanmaz çelik",
    "fiyat": 2199.0,
@@ -1711,7 +1711,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FZVS8GBJ",
    "baslik": "stanley iceflow flip straw jug pipetli termos su şişesi 1.9 litre - cobalt chartreuse | paslanmaz çelik",
    "fiyat": 3999.0,
@@ -1725,21 +1725,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0FZVS975P",
-   "baslik": "stanley classic legendary food jar with spork yemek termosu + kaşik 0.4 litre - siyah 2.0 | paslanmaz çelik",
-   "fiyat": 2149.0,
-   "hacim_litre": 0.4,
-   "aylik_satis_rozeti": "Geçen ay 100 adetten fazla satın alındı",
-   "aylik_satis_tahmini": 100,
-   "yorum_sayisi": 28,
-   "puan": 4.4,
-   "onceki_fiyat": null,
-   "stok_adedi": null,
-   "sponsorlu": 0
-  },
-  {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FZVSKD5C",
    "baslik": "stanley the transit fliptop mug16oz termos 0.47 litre - yeşil (hammertone green) | paslanmaz çelik",
    "fiyat": 1894.65,
@@ -1753,7 +1739,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FZVSXG19",
    "baslik": "stanley classic legendary 20oz vakumlu termos 0.60 litre - hammertone rose quartz | paslanmaz çelik",
    "fiyat": 1673.99,
@@ -1767,21 +1753,21 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FZVT6Q6Q",
    "baslik": "stanley cafe to-go travel mug 16oz termos bardak 0.47 litre - siyah 2.0 | paslanmaz çelik",
    "fiyat": 1349.0,
    "hacim_litre": 0.47,
    "aylik_satis_rozeti": "Geçen ay 100 adetten fazla satın alındı",
    "aylik_satis_tahmini": 100,
-   "yorum_sayisi": 25,
+   "yorum_sayisi": 26,
    "puan": 4.6,
    "onceki_fiyat": 1443.99,
    "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FZVT9QD6",
    "baslik": "stanley fast-flow water jug jug 7.5 litre - siyah 2.0",
    "fiyat": 4008.99,
@@ -1795,13 +1781,13 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FZVVQDBF",
    "baslik": "stanley the transit fliptop mug12oz termos 0.35 litre - yeşil (hammertone green) | paslanmaz çelik",
    "fiyat": 1699.0,
    "hacim_litre": 0.36,
-   "aylik_satis_rozeti": "Geçen ay 500 adetten fazla satın alındı",
-   "aylik_satis_tahmini": 500,
+   "aylik_satis_rozeti": "Geçen ay 400 adetten fazla satın alındı",
+   "aylik_satis_tahmini": 400,
    "yorum_sayisi": 25,
    "puan": 4.6,
    "onceki_fiyat": null,
@@ -1809,7 +1795,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FZVVTVZ8",
    "baslik": "stanley the transit fliptop mug20oz termos 0.60 litre - pembe kuvars (rose quartz) | paslanmaz çelik",
    "fiyat": 1649.0,
@@ -1823,21 +1809,21 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FZVW3QPH",
    "baslik": "stanley cafe to-go travel mug 16oz termos bardak 0.47 litre - pembe kuvars (rose quartz) | paslanmaz çelik",
    "fiyat": 1349.0,
    "hacim_litre": 0.47,
    "aylik_satis_rozeti": "Geçen ay 300 adetten fazla satın alındı",
    "aylik_satis_tahmini": 300,
-   "yorum_sayisi": 25,
+   "yorum_sayisi": 27,
    "puan": 4.0,
    "onceki_fiyat": 1438.99,
    "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FZVW53RM",
    "baslik": "stanley adventure easy carry 25qt kamp buzluğu 26 litre - siyah",
    "fiyat": 10899.0,
@@ -1851,7 +1837,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FZVW74BG",
    "baslik": "stanley classic legendary camp mug termos bardak 0.35 litre - hammertone rose quartz | paslanmaz çelik",
    "fiyat": 1249.0,
@@ -1865,7 +1851,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FZVW7M4P",
    "baslik": "stanley iceflow flip straw jug pipetli termos su şişesi 1.9 litre - siyah 2.0 | paslanmaz çelik",
    "fiyat": 3350.0,
@@ -1879,7 +1865,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FZVWJKWG",
    "baslik": "stanley the transit fliptop mug12oz termos 0.35 litre - pembe kuvars (rose quartz) | paslanmaz çelik",
    "fiyat": 1579.0,
@@ -1893,13 +1879,13 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FZVX21JK",
    "baslik": "stanley iceflow flip straw tumbler pipetli termos su şişesi 0.89 litre - krem | paslanmaz çelik",
    "fiyat": 2375.12,
    "hacim_litre": 0.89,
-   "aylik_satis_rozeti": "Geçen ay 800 adetten fazla satın alındı",
-   "aylik_satis_tahmini": 800,
+   "aylik_satis_rozeti": "Geçen ay 700 adetten fazla satın alındı",
+   "aylik_satis_tahmini": 700,
    "yorum_sayisi": 92,
    "puan": 4.1,
    "onceki_fiyat": null,
@@ -1907,13 +1893,27 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0FZVX2PXV",
+   "baslik": "stanley adventure easy carry kamp buzluğu 15.1 litre - siyah",
+   "fiyat": 5999.0,
+   "hacim_litre": 15.1,
+   "aylik_satis_rozeti": "Geçen ay 50 adetten fazla satın alındı",
+   "aylik_satis_tahmini": 50,
+   "yorum_sayisi": 14,
+   "puan": 4.3,
+   "onceki_fiyat": 7299.0,
+   "stok_adedi": null,
+   "sponsorlu": 0
+  },
+  {
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FZVXJWZH",
    "baslik": "stanley iceflow flip straw tumbler pipetli termos su şişesi 0.89 litre - orange sherbet | paslanmaz çelik",
    "fiyat": 1862.82,
    "hacim_litre": 0.89,
-   "aylik_satis_rozeti": "Geçen ay 600 adetten fazla satın alındı",
-   "aylik_satis_tahmini": 600,
+   "aylik_satis_rozeti": "Geçen ay 500 adetten fazla satın alındı",
+   "aylik_satis_tahmini": 500,
    "yorum_sayisi": 43,
    "puan": 4.0,
    "onceki_fiyat": 1900.84,
@@ -1921,7 +1921,7 @@
    "sponsorlu": 1
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FZVZPMPF",
    "baslik": "stanley classic legendary camp mug 8oz termos bardak 0.23 litre - hammertone rose quartz | paslanmaz çelik",
    "fiyat": 1619.0,
@@ -1935,35 +1935,35 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0FZW17RZK",
    "baslik": "stanley iceflow™ aerolight™ flip straw 2.0 24oz pipetli termos su şişesi 0.7 litre - orange sherbet | paslanmaz çelik",
    "fiyat": 1699.0,
    "hacim_litre": 0.71,
    "aylik_satis_rozeti": "Geçen ay 100 adetten fazla satın alındı",
    "aylik_satis_tahmini": 100,
-   "yorum_sayisi": 17,
-   "puan": 4.0,
+   "yorum_sayisi": 18,
+   "puan": 4.1,
    "onceki_fiyat": 1758.99,
    "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0G15M9XT9",
-   "baslik": "stanley the aerolight transit mug16oz termos 0.47 litre - indigo | paslanmaz çelik",
-   "fiyat": 2075.92,
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0G1N8GJRC",
+   "baslik": "stanley the everyday suburban mug 0.47l klasik termos 10-13861-044 krem",
+   "fiyat": 2173.8,
    "hacim_litre": 0.47,
-   "aylik_satis_rozeti": "Geçen ay 400 adetten fazla satın alındı",
-   "aylik_satis_tahmini": 400,
-   "yorum_sayisi": 46,
-   "puan": 4.5,
-   "onceki_fiyat": null,
-   "stok_adedi": 2,
+   "aylik_satis_rozeti": null,
+   "aylik_satis_tahmini": null,
+   "yorum_sayisi": null,
+   "puan": null,
+   "onceki_fiyat": 2399.0,
+   "stok_adedi": 5,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0G2YVKF16",
    "baslik": "stanley iceflow™ aerolight™ flip straw 2.0 24oz pipetli termos su şişesi 0.7 litre - pacific hypergrip | paslanmaz çelik",
    "fiyat": 1699.0,
@@ -1977,21 +1977,35 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0G2YWP45T",
    "baslik": "stanley quencher h2.0 flowstate pipetli termos bardak 1.18 litre - krem 2.0 | paslanmaz çelik",
    "fiyat": 1521.9,
    "hacim_litre": 1.18,
    "aylik_satis_rozeti": "Geçen ay 200 adetten fazla satın alındı",
    "aylik_satis_tahmini": 200,
-   "yorum_sayisi": 2265,
-   "puan": 4.3,
+   "yorum_sayisi": 2266,
+   "puan": 4.2,
    "onceki_fiyat": 1691.0,
+   "stok_adedi": null,
+   "sponsorlu": 1
+  },
+  {
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0G2YYSGXW",
+   "baslik": "stanley iceflow flip straw jug pipetli termos su şişesi 1.9 litre - chalk | paslanmaz çelik",
+   "fiyat": 3499.0,
+   "hacim_litre": 1.9,
+   "aylik_satis_rozeti": null,
+   "aylik_satis_tahmini": null,
+   "yorum_sayisi": 17,
+   "puan": 4.3,
+   "onceki_fiyat": 3598.99,
    "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0G2YZSWZC",
    "baslik": "stanley iceflow™ aerolight™ flip straw 2.0 36oz pipetli termos su şişesi 1.06 litre - pacific hypergrip | paslanmaz çelik",
    "fiyat": 1999.0,
@@ -2005,7 +2019,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0G2Z36HB1",
    "baslik": "stanley the iceflow™ twist & flip24oz termos su şişesi 0.7 litre - peach rose | paslanmaz çelik",
    "fiyat": 1699.0,
@@ -2019,7 +2033,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0G5QJKQBC",
    "baslik": "stanley cafe to-go travel mug 8oz termos bardak 0.23 litre - beyaz (frost) | paslanmaz çelik",
    "fiyat": 1099.99,
@@ -2033,35 +2047,35 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0G6KTMDSH",
-   "baslik": "stanley the aerolight transit mug12oz termos 0.35 litre - pistachio | paslanmaz çelik",
-   "fiyat": 1637.09,
-   "hacim_litre": 0.36,
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0G5QPFJZY",
+   "baslik": "stanley quencher h2.0 flowstate tumbler 40oz pipetli termos bardak 1.18 litre - stone | paslanmaz çelik",
+   "fiyat": 1694.96,
+   "hacim_litre": 1.18,
    "aylik_satis_rozeti": null,
    "aylik_satis_tahmini": null,
-   "yorum_sayisi": 364,
-   "puan": 4.5,
-   "onceki_fiyat": 1698.99,
-   "stok_adedi": 10,
+   "yorum_sayisi": null,
+   "puan": null,
+   "onceki_fiyat": 2398.99,
+   "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0GBV42656",
-   "baslik": "stanley klasik paslanmaz çelik yemek termosu kaşikli 0,40 lt - cranberry",
-   "fiyat": 2621.0,
-   "hacim_litre": 0.4,
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0GBWDTCX2",
+   "baslik": "stanley the wellspring termos, 0.70 l, yeşil",
+   "fiyat": 2187.14,
+   "hacim_litre": 0.7,
    "aylik_satis_rozeti": null,
    "aylik_satis_tahmini": null,
-   "yorum_sayisi": 1,
-   "puan": 5.0,
-   "onceki_fiyat": 2759.0,
-   "stok_adedi": 2,
+   "yorum_sayisi": 3,
+   "puan": 4.2,
+   "onceki_fiyat": null,
+   "stok_adedi": 7,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0GBX4JQRJ",
    "baslik": "stanley quencher h2.0 flowstate tumbler 40oz pipetli termos bardak 1.18 litre - pistachio | paslanmaz çelik",
    "fiyat": 1694.96,
@@ -2075,7 +2089,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0GBXNGQT5",
    "baslik": "stanley quencher h2.0 flowstate tumbler 40oz pipetli termos bardak 1.18 litre - cranberry | paslanmaz çelik",
    "fiyat": 1699.0,
@@ -2089,7 +2103,35 @@
    "sponsorlu": 1
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0GCRXNPZR",
+   "baslik": "stanley the quencher pro tour pipetli termos, 1.18 l, pembe",
+   "fiyat": 2399.25,
+   "hacim_litre": 1.18,
+   "aylik_satis_rozeti": null,
+   "aylik_satis_tahmini": null,
+   "yorum_sayisi": 3,
+   "puan": 5.0,
+   "onceki_fiyat": null,
+   "stok_adedi": null,
+   "sponsorlu": 0
+  },
+  {
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0GFXM271K",
+   "baslik": "stanley the activate shaker 0.6l / 20oz / chartreuse",
+   "fiyat": 2471.5,
+   "hacim_litre": 0.6,
+   "aylik_satis_rozeti": null,
+   "aylik_satis_tahmini": null,
+   "yorum_sayisi": 1,
+   "puan": 1.0,
+   "onceki_fiyat": null,
+   "stok_adedi": null,
+   "sponsorlu": 0
+  },
+  {
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0GGJBN3RS",
    "baslik": "stanley 10-11283-0507 termos, 0.70 l, kirmizi",
    "fiyat": 1969.0,
@@ -2103,7 +2145,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0GGJCC14L",
    "baslik": "stanley the iceflow bottle flip straw 2.0 1.06l pipetli termos 10-12111-0271 kirmizi",
    "fiyat": 2551.12,
@@ -2117,7 +2159,21 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0GGJG7RNY",
+   "baslik": "stanley 10-11283-0499 termos, 0.47 l, kül",
+   "fiyat": 2048.91,
+   "hacim_litre": 0.47,
+   "aylik_satis_rozeti": null,
+   "aylik_satis_tahmini": null,
+   "yorum_sayisi": 6,
+   "puan": 5.0,
+   "onceki_fiyat": 2209.15,
+   "stok_adedi": null,
+   "sponsorlu": 0
+  },
+  {
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0GGJHMKCS",
    "baslik": "stanley the iceflow flip straw pipetli termos bardak 1.1 lt matara gri, 5003378789",
    "fiyat": 2687.23,
@@ -2131,7 +2187,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0GGTDY41B",
    "baslik": "stanley classic wellspring bottle 0,70 lt (24 oz) - hammertone green",
    "fiyat": 2144.25,
@@ -2145,7 +2201,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0GHT5QYQ4",
    "baslik": "stanley vacuum stein termos bardak 0.7 litre - beyaz (frost) | paslanmaz çelik",
    "fiyat": 2299.0,
@@ -2159,7 +2215,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0GJDJMWDV",
    "baslik": "stanley quencher h2.0 flowstate tumbler 40oz pipetli termos bardak 1.18 litre - dew drop | paslanmaz çelik",
    "fiyat": 1694.96,
@@ -2173,7 +2229,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0GK27BBDV",
    "baslik": "stanley quencher® protour flip straw tumbler termos | 1.18l violet blossom",
    "fiyat": 2379.0,
@@ -2187,63 +2243,49 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0GKLCMB4Z",
-   "baslik": "stanley quencher h2.0 flowstate tumbler 20oz pipetli termos bardak 0.60 litre - violet blossom | paslanmaz çelik",
-   "fiyat": 1939.0,
-   "hacim_litre": 0.59,
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0GK3ZXKP6",
+   "baslik": "stanley the quencher protour flip straw tumbler 0.6l / 20oz | pudra",
+   "fiyat": 1799.0,
+   "hacim_litre": 0.6,
    "aylik_satis_rozeti": null,
    "aylik_satis_tahmini": null,
-   "yorum_sayisi": null,
-   "puan": null,
-   "onceki_fiyat": 2049.0,
-   "stok_adedi": 1,
+   "yorum_sayisi": 1,
+   "puan": 5.0,
+   "onceki_fiyat": null,
+   "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0GL1XJB65",
-   "baslik": "stanley cafe to-go travel mug 8oz termos bardak 0.23 litre - violet blossom | paslanmaz çelik",
-   "fiyat": 1637.18,
-   "hacim_litre": 0.24,
-   "aylik_satis_rozeti": null,
-   "aylik_satis_tahmini": null,
-   "yorum_sayisi": null,
-   "puan": null,
-   "onceki_fiyat": 1999.0,
-   "stok_adedi": 1,
-   "sponsorlu": 0
-  },
-  {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0GL1Y255T",
-   "baslik": "stanley the café-to-go travel mug 0.35l / 12oz 10-12080-102 pembe",
-   "fiyat": 1964.78,
-   "hacim_litre": 0.35,
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0GLFTSRWZ",
+   "baslik": "stanley quencher h2.0 flowstate tumbler 40oz pipetli termos bardak 1.18 litre - goldenrod coral | paslanmaz çelik",
+   "fiyat": 1581.1,
+   "hacim_litre": 1.18,
    "aylik_satis_rozeti": null,
    "aylik_satis_tahmini": null,
    "yorum_sayisi": null,
    "puan": null,
    "onceki_fiyat": null,
-   "stok_adedi": 10,
-   "sponsorlu": 0
-  },
-  {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0GPH2FQV8",
-   "baslik": "stanley the aerolight™ transit mug | 0.35l/cranberry",
-   "fiyat": 2098.74,
-   "hacim_litre": 0.35,
-   "aylik_satis_rozeti": null,
-   "aylik_satis_tahmini": null,
-   "yorum_sayisi": 7,
-   "puan": 4.6,
-   "onceki_fiyat": 2990.0,
    "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0GRBH56F1",
+   "baslik": "stanley the quencher h2.o flowstate tumbler 1.18l pipetli termos10-12552-0269 çok renkli",
+   "fiyat": 2958.2,
+   "hacim_litre": 1.18,
+   "aylik_satis_rozeti": null,
+   "aylik_satis_tahmini": null,
+   "yorum_sayisi": null,
+   "puan": null,
+   "onceki_fiyat": 3699.0,
+   "stok_adedi": null,
+   "sponsorlu": 0
+  },
+  {
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0GS351BS6",
    "baslik": "stanley the quencher h2.o flowstate tumbler 1.18l pipetli termos 10-10824-992 siyah",
    "fiyat": 2249.0,
@@ -2257,7 +2299,21 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0GTR24FDF",
+   "baslik": "stanley quencher pipetli termos bardak 0,60 lt-10-12817-325",
+   "fiyat": 2999.0,
+   "hacim_litre": 0.6,
+   "aylik_satis_rozeti": null,
+   "aylik_satis_tahmini": null,
+   "yorum_sayisi": null,
+   "puan": null,
+   "onceki_fiyat": 3179.0,
+   "stok_adedi": 8,
+   "sponsorlu": 0
+  },
+  {
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0GTVL6319",
    "baslik": "stanley the aerolight transit mug12oz termos 0.35 litre - peach whip gloss | paslanmaz çelik",
    "fiyat": 2099.0,
@@ -2271,7 +2327,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0GVZ5TRR3",
    "baslik": "stanley the iceflow flip straw 2.0 tumbler 0.89l pipetli termos 10-13424-0225kahverengi",
    "fiyat": 4466.39,
@@ -2285,21 +2341,35 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0GWQPYTM3",
-   "baslik": "stanley the café-to-go travel mug 0.47l klasik termos 10-21324-0005 krem",
-   "fiyat": 2099.25,
-   "hacim_litre": 0.47,
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0GW4M9WW1",
+   "baslik": "stanley the transit fliptop mug 0.59l peach rose pembe termos mug, tycfabcd9ac9fcbae92746100",
+   "fiyat": 2099.0,
+   "hacim_litre": 0.59,
    "aylik_satis_rozeti": null,
    "aylik_satis_tahmini": null,
    "yorum_sayisi": null,
    "puan": null,
    "onceki_fiyat": null,
-   "stok_adedi": 8,
+   "stok_adedi": 14,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0GWQQ2Q41",
+   "baslik": "stanley the stay hot stacking camp cup 0.30l klasik termos 10-12078-0041 gri",
+   "fiyat": 1349.0,
+   "hacim_litre": 0.3,
+   "aylik_satis_rozeti": null,
+   "aylik_satis_tahmini": null,
+   "yorum_sayisi": null,
+   "puan": null,
+   "onceki_fiyat": null,
+   "stok_adedi": null,
+   "sponsorlu": 0
+  },
+  {
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0GWQRFR46",
    "baslik": "stanley the transit fliptop mug 0.35 l termos kupa bardak matara mavi, 10-13063-0052",
    "fiyat": 1699.0,
@@ -2309,25 +2379,11 @@
    "yorum_sayisi": 6,
    "puan": 5.0,
    "onceki_fiyat": null,
-   "stok_adedi": 11,
+   "stok_adedi": 9,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0GWQV9XBS",
-   "baslik": "stanley 10-13062-012 termos, 0.47 l, kül",
-   "fiyat": 2023.44,
-   "hacim_litre": 0.47,
-   "aylik_satis_rozeti": null,
-   "aylik_satis_tahmini": null,
-   "yorum_sayisi": null,
-   "puan": null,
-   "onceki_fiyat": 2069.1,
-   "stok_adedi": 5,
-   "sponsorlu": 0
-  },
-  {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0GWQVSGQX",
    "baslik": "stanley the transit fliptop mug 0.35l klasik termos 10-13063-015 lacivert",
    "fiyat": 1579.0,
@@ -2341,13 +2397,13 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0GWQWG4JW",
    "baslik": "stanley 10-13061-012 termos, 0.59 l, kül",
    "fiyat": 2196.75,
    "hacim_litre": 0.59,
-   "aylik_satis_rozeti": null,
-   "aylik_satis_tahmini": null,
+   "aylik_satis_rozeti": "Geçen ay 50 adetten fazla satın alındı",
+   "aylik_satis_tahmini": 50,
    "yorum_sayisi": 4,
    "puan": 3.8,
    "onceki_fiyat": null,
@@ -2355,21 +2411,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0GWQYT6JR",
-   "baslik": "stanley the easy-fill wide mouth flask 0.23l cep matarasi 10-00837-0071 siyah",
-   "fiyat": 1565.54,
-   "hacim_litre": 0.23,
-   "aylik_satis_rozeti": null,
-   "aylik_satis_tahmini": null,
-   "yorum_sayisi": null,
-   "puan": null,
-   "onceki_fiyat": 1709.1,
-   "stok_adedi": 12,
-   "sponsorlu": 0
-  },
-  {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0GWQZ1LMK",
    "baslik": "stanley the transit fliptop mug 0.35l ash gri termos, tyc083ba22be18acb94b62d00",
    "fiyat": 1572.0,
@@ -2379,25 +2421,11 @@
    "yorum_sayisi": 5,
    "puan": 4.7,
    "onceki_fiyat": 1655.0,
-   "stok_adedi": 8,
+   "stok_adedi": 7,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0GWR35KCZ",
-   "baslik": "stanley 10-13061-013 termos, 0.59 l, krem",
-   "fiyat": 1798.99,
-   "hacim_litre": 0.59,
-   "aylik_satis_rozeti": null,
-   "aylik_satis_tahmini": null,
-   "yorum_sayisi": 3,
-   "puan": 5.0,
-   "onceki_fiyat": null,
-   "stok_adedi": null,
-   "sponsorlu": 0
-  },
-  {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0GWR7F7WD",
    "baslik": "stanley the stay chill stein 0.7l klasik termos 10-11356-0049 siyah",
    "fiyat": 1889.0,
@@ -2411,7 +2439,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0GY1W5BLQ",
    "baslik": "stanley the iceflow flip straw pipetli termos bardak 0.40 lt-10-12045-0123",
    "fiyat": 2768.21,
@@ -2425,7 +2453,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0GY22HCH2",
    "baslik": "stanley the iceflow flip straw 2.0 0.41l unisex kirmizi termos",
    "fiyat": 2025.22,
@@ -2439,7 +2467,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0GY274VVV",
    "baslik": "stanley the iceflow flip straw pipetli termos bardak 0.40 lt-10-12045-0115",
    "fiyat": 1953.37,
@@ -2453,7 +2481,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0GY2CZKS5",
    "baslik": "stanley the iceflow flip straw pipetli termos bardak 0.40 lt-10-12045-0113",
    "fiyat": 1699.0,
@@ -2467,7 +2495,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0GY4K1XWK",
    "baslik": "stanley wellspring 0.7 lt termos bardak-10-13111-0103",
    "fiyat": 2029.0,
@@ -2481,7 +2509,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0GY4P9G3Q",
    "baslik": "stanley wellspring 0.47 lt termos bardak-10-13110-0051",
    "fiyat": 2019.0,
@@ -2495,7 +2523,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0GY4YNG5T",
    "baslik": "stanley wellspring 0.7 lt termos bardak-10-13111-0105",
    "fiyat": 2049.0,
@@ -2509,7 +2537,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0GYFD58KC",
    "baslik": "stanley all day slim 20oz soğuk su termosu 0.60 litre - indigo gloss | paslanmaz çelik",
    "fiyat": 1491.48,
@@ -2523,7 +2551,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0GYZCSFMQ",
    "baslik": "stanley iceflow flip straw 2.0 termos 0.59l beyaz, 10-13425-0117",
    "fiyat": 2089.0,
@@ -2537,7 +2565,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0GYZKVSZT",
    "baslik": "stanley the aerolight transit mug 16oz termos 0.47 litre - butter gloss | paslanmaz çelik",
    "fiyat": 1499.0,
@@ -2551,7 +2579,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0GYZPW7Q1",
    "baslik": "stanley the iceflow flip straw pipetli termos bardak 0.59 lt matara bej, 10-13425-0119",
    "fiyat": 2049.0,
@@ -2565,7 +2593,21 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0H14ZFNN5",
+   "baslik": "stanley classic wellspring bottle 0,70 lt (24 oz) - purple smoke gloss",
+   "fiyat": 2023.12,
+   "hacim_litre": 0.7,
+   "aylik_satis_rozeti": null,
+   "aylik_satis_tahmini": null,
+   "yorum_sayisi": 1,
+   "puan": 5.0,
+   "onceki_fiyat": null,
+   "stok_adedi": 1,
+   "sponsorlu": 0
+  },
+  {
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0H183N9C5",
    "baslik": "stanley the iceflow flip straw 2.0 tumbler 0.60l pipetli termos 10-13425-0133 mor",
    "fiyat": 2049.0,
@@ -2575,11 +2617,11 @@
    "yorum_sayisi": 1,
    "puan": 5.0,
    "onceki_fiyat": null,
-   "stok_adedi": 6,
+   "stok_adedi": 2,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0H18837LN",
    "baslik": "stanley the quencher protour flip straw tumbler 1.18l pipetli termos 10-21126-0131 yeşil",
    "fiyat": 2563.05,
@@ -2593,7 +2635,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0H188CBC9",
    "baslik": "stanley the quencher protour flip straw tumbler 1.18l pipetli termos 10-21126-0135 kirmizi",
    "fiyat": 2666.01,
@@ -2607,49 +2649,35 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0H18K8KLC",
    "baslik": "stanley the quencher protour flip straw tumbler 1.18l pipetli termos 10-21126-0121 siyah",
-   "fiyat": 2219.15,
+   "fiyat": 2209.0,
    "hacim_litre": 1.18,
    "aylik_satis_rozeti": null,
    "aylik_satis_tahmini": null,
    "yorum_sayisi": 1,
    "puan": 4.0,
-   "onceki_fiyat": 2649.0,
+   "onceki_fiyat": null,
    "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0H18KHK13",
-   "baslik": "stanley the quencher protour flip straw tumbler 1.18l pipetli termos 10-21126-0127 lacivert",
-   "fiyat": 2369.0,
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0H18MMGGF",
+   "baslik": "stanley the quencher protour flip straw tumbler 1.18l pipetli termos 10-21126-0123 pembe",
+   "fiyat": 2330.78,
    "hacim_litre": 1.18,
    "aylik_satis_rozeti": null,
    "aylik_satis_tahmini": null,
    "yorum_sayisi": 2,
    "puan": 5.0,
-   "onceki_fiyat": null,
-   "stok_adedi": 8,
+   "onceki_fiyat": 2599.0,
+   "stok_adedi": null,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0H373ZTQY",
-   "baslik": "stanley adventure büyük tutuşlu bira bardaği kül 0,71l",
-   "fiyat": 1907.85,
-   "hacim_litre": 0.71,
-   "aylik_satis_rozeti": null,
-   "aylik_satis_tahmini": null,
-   "yorum_sayisi": null,
-   "puan": null,
-   "onceki_fiyat": 2199.0,
-   "stok_adedi": 2,
-   "sponsorlu": 0
-  },
-  {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0H4VYP697",
    "baslik": "stanley iceflow™ aerolight™ flip straw 2.0 36oz pipetli termos su şişesi 1.06 litre - lacivert | paslanmaz çelik",
    "fiyat": 1999.0,
@@ -2663,7 +2691,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0H4W5W13L",
    "baslik": "stanley quencher h2.0 flowstate tumbler 40oz pipetli termos bardak 1.18 litre - paslanmaz çelik | paslanmaz çelik",
    "fiyat": 2999.0,
@@ -2677,7 +2705,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0HCCPGR95",
    "baslik": "stanley iceflow flip straw tumbler pipetli termos su şişesi 0.89 litre - polished rose gold | paslanmaz çelik",
    "fiyat": 2400.04,
@@ -2691,7 +2719,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0HCCR882S",
    "baslik": "stanley cafe to-go travel mug 12oz termos bardak 0.35 litre - purple umbra | paslanmaz çelik",
    "fiyat": 1199.0,
@@ -2705,7 +2733,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0HCCTNYG1",
    "baslik": "stanley cafe to-go travel mug 12oz termos bardak 0.35 litre - beyaz (frost) | paslanmaz çelik",
    "fiyat": 1199.0,
@@ -2719,7 +2747,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0HCD28NTQ",
    "baslik": "stanley all day slim 20oz soğuk su termosu 0.60 litre - garnet shine | paslanmaz çelik",
    "fiyat": 1150.99,
@@ -2733,7 +2761,21 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0HCD8QZRK",
+   "baslik": "stanley pitcher 64oz sürahi 1.9 litre - cornflower emerald | paslanmaz çelik",
+   "fiyat": 4399.0,
+   "hacim_litre": 1.89,
+   "aylik_satis_rozeti": null,
+   "aylik_satis_tahmini": null,
+   "yorum_sayisi": null,
+   "puan": null,
+   "onceki_fiyat": null,
+   "stok_adedi": null,
+   "sponsorlu": 0
+  },
+  {
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0HDD51WTS",
    "baslik": "stanley the transit fliptop mug 0.35l / 12oz daffodil termos as10130630054",
    "fiyat": 1469.0,
@@ -2743,11 +2785,11 @@
    "yorum_sayisi": 1,
    "puan": 5.0,
    "onceki_fiyat": null,
-   "stok_adedi": 17,
+   "stok_adedi": 15,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0HDG641NH",
    "baslik": "stanley the transit fliptop mug 0.35l / 12oz peach rose termos as10130630050 fuşya",
    "fiyat": 1649.0,
@@ -2757,11 +2799,25 @@
    "yorum_sayisi": 1,
    "puan": 3.0,
    "onceki_fiyat": null,
-   "stok_adedi": 5,
+   "stok_adedi": 1,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0HDZGFW7K",
+   "baslik": "stanley the lifted spirits 2-in-1 cocktail glass 0.42l / 14oz garnet shine termos as1011359028",
+   "fiyat": 3959.1,
+   "hacim_litre": 0.42,
+   "aylik_satis_rozeti": null,
+   "aylik_satis_tahmini": null,
+   "yorum_sayisi": null,
+   "puan": null,
+   "onceki_fiyat": 4399.0,
+   "stok_adedi": 4,
+   "sponsorlu": 0
+  },
+  {
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0HF13LNVH",
    "baslik": "stanley the transit fliptop mug 0.47l / 16oz daffodil termos as10130620058",
    "fiyat": 1749.0,
@@ -2775,7 +2831,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0HF16HCWM",
    "baslik": "stanley the transit fliptop mug 0.35l / 12oz spring green termos as10130630048 yeşil",
    "fiyat": 1479.0,
@@ -2785,11 +2841,11 @@
    "yorum_sayisi": null,
    "puan": null,
    "onceki_fiyat": null,
-   "stok_adedi": 10,
+   "stok_adedi": 7,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0HF7YMCZ2",
    "baslik": "stanley the iceflow flip straw pipetli termos bardak 0.41 lt/spring green",
    "fiyat": 2477.44,
@@ -2803,7 +2859,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0HFD78QFK",
    "baslik": "stanley the transit fliptop mug 0.47l yeşil termos, 10-13062-0054",
    "fiyat": 1729.76,
@@ -2813,25 +2869,11 @@
    "yorum_sayisi": 1,
    "puan": 5.0,
    "onceki_fiyat": null,
-   "stok_adedi": 19,
+   "stok_adedi": 18,
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
-   "asin": "B0HFD8TFBS",
-   "baslik": "stanley the transit fliptop mug 0.59l spring green termos bardak, tycf8205fb7cf10082b879300",
-   "fiyat": 1749.0,
-   "hacim_litre": 0.59,
-   "aylik_satis_rozeti": null,
-   "aylik_satis_tahmini": null,
-   "yorum_sayisi": null,
-   "puan": null,
-   "onceki_fiyat": null,
-   "stok_adedi": 6,
-   "sponsorlu": 0
-  },
-  {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0HJ2TF2WT",
    "baslik": "stanley the aerolight transit mug termos fuşya 0.47 lt.",
    "fiyat": 1907.23,
@@ -2845,7 +2887,21 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
+   "asin": "B0HMWWPDWG",
+   "baslik": "stanley the iceflow flip straw 2.0 tumbler 0.89l pipetli termos 10-13424-0663 mavi",
+   "fiyat": 3199.0,
+   "hacim_litre": 0.89,
+   "aylik_satis_rozeti": null,
+   "aylik_satis_tahmini": null,
+   "yorum_sayisi": null,
+   "puan": null,
+   "onceki_fiyat": null,
+   "stok_adedi": null,
+   "sponsorlu": 0
+  },
+  {
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0HNK16FNB",
    "baslik": "stanley transit fliptop mug termos 0.35 lt mavi,parlak mavi",
    "fiyat": 1599.0,
@@ -2859,7 +2915,7 @@
    "sponsorlu": 0
   },
   {
-   "tarih": "2026-11-08 12:37:11",
+   "tarih": "2026-11-09 12:56:43",
    "asin": "B0HNPRPZVQ",
    "baslik": "stanley the transit fliptop termos 0.35l / pale gold shine",
    "fiyat": 1589.0,
